@@ -1,0 +1,2614 @@
+<!DOCTYPE html>
+<!-- saved from url=(0026)https://www.mageplaza.com/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<script async="" src="./Mageplaza_files/gtm.js.download"></script><script>class RocketLazyLoadScripts{constructor(e){this.triggerEvents=e,this.eventOptions={passive:!0},this.userEventListener=this.triggerListener.bind(this),this.delayedScripts={normal:[],async:[],defer:[]},this.allJQueries=[]}_addUserInteractionListener(e){this.triggerEvents.forEach((t=>window.addEventListener(t,e.userEventListener,e.eventOptions)))}_removeUserInteractionListener(e){this.triggerEvents.forEach((t=>window.removeEventListener(t,e.userEventListener,e.eventOptions)))}triggerListener(){this._removeUserInteractionListener(this),"loading"===document.readyState?document.addEventListener("DOMContentLoaded",this._loadEverythingNow.bind(this)):this._loadEverythingNow()}async _loadEverythingNow(){this._delayEventListeners(),this._delayJQueryReady(this),this._handleDocumentWrite(),this._registerAllDelayedScripts(),this._preloadAllScripts(),await this._loadScriptsFromList(this.delayedScripts.normal),await this._loadScriptsFromList(this.delayedScripts.defer),await this._loadScriptsFromList(this.delayedScripts.async),await this._triggerDOMContentLoaded(),await this._triggerWindowLoad(),window.dispatchEvent(new Event("rocket-allScriptsLoaded"))}_registerAllDelayedScripts(){document.querySelectorAll("script[type=rocketlazyloadscript]").forEach((e=>{e.hasAttribute("src")?e.hasAttribute("async")&&!1!==e.async?this.delayedScripts.async.push(e):e.hasAttribute("defer")&&!1!==e.defer||"module"===e.getAttribute("data-rocket-type")?this.delayedScripts.defer.push(e):this.delayedScripts.normal.push(e):this.delayedScripts.normal.push(e)}))}async _transformScript(e){return await this._requestAnimFrame(),new Promise((t=>{const n=document.createElement("script");let r;[...e.attributes].forEach((e=>{let t=e.nodeName;"type"!==t&&("data-rocket-type"===t&&(t="type",r=e.nodeValue),n.setAttribute(t,e.nodeValue))})),e.hasAttribute("src")?(n.addEventListener("load",t),n.addEventListener("error",t)):(n.text=e.text,t()),e.parentNode.replaceChild(n,e)}))}async _loadScriptsFromList(e){const t=e.shift();return t?(await this._transformScript(t),this._loadScriptsFromList(e)):Promise.resolve()}_preloadAllScripts(){var e=document.createDocumentFragment();[...this.delayedScripts.normal,...this.delayedScripts.defer,...this.delayedScripts.async].forEach((t=>{const n=t.getAttribute("src");if(n){const t=document.createElement("link");t.href=n,t.rel="preload",t.as="script",e.appendChild(t)}})),document.head.appendChild(e)}_delayEventListeners(){let e={};function t(t,n){!function(t){function n(n){return e[t].eventsToRewrite.indexOf(n)>=0?"rocket-"+n:n}e[t]||(e[t]={originalFunctions:{add:t.addEventListener,remove:t.removeEventListener},eventsToRewrite:[]},t.addEventListener=function(){arguments[0]=n(arguments[0]),e[t].originalFunctions.add.apply(t,arguments)},t.removeEventListener=function(){arguments[0]=n(arguments[0]),e[t].originalFunctions.remove.apply(t,arguments)})}(t),e[t].eventsToRewrite.push(n)}function n(e,t){let n=e[t];Object.defineProperty(e,t,{get:()=>n||function(){},set(r){e["rocket"+t]=n=r}})}t(document,"DOMContentLoaded"),t(window,"DOMContentLoaded"),t(window,"load"),t(window,"pageshow"),t(document,"readystatechange"),n(document,"onreadystatechange"),n(window,"onload"),n(window,"onpageshow")}_delayJQueryReady(e){let t=window.jQuery;Object.defineProperty(window,"jQuery",{get:()=>t,set(n){if(n&&n.fn&&!e.allJQueries.includes(n)){n.fn.ready=n.fn.init.prototype.ready=function(t){e.domReadyFired?t.bind(document)(n):document.addEventListener("rocket-DOMContentLoaded",(()=>t.bind(document)(n)))};const t=n.fn.on;n.fn.on=n.fn.init.prototype.on=function(){if(this[0]===window){function e(e){return e.split(" ").map((e=>"load"===e||0===e.indexOf("load.")?"rocket-jquery-load":e)).join(" ")}"string"==typeof arguments[0]||arguments[0]instanceof String?arguments[0]=e(arguments[0]):"object"==typeof arguments[0]&&Object.keys(arguments[0]).forEach((t=>{delete Object.assign(arguments[0],{[e(t)]:arguments[0][t]})[t]}))}return t.apply(this,arguments),this},e.allJQueries.push(n)}t=n}})}async _triggerDOMContentLoaded(){this.domReadyFired=!0,await this._requestAnimFrame(),document.dispatchEvent(new Event("rocket-DOMContentLoaded")),await this._requestAnimFrame(),window.dispatchEvent(new Event("rocket-DOMContentLoaded")),await this._requestAnimFrame(),document.dispatchEvent(new Event("rocket-readystatechange")),await this._requestAnimFrame(),document.rocketonreadystatechange&&document.rocketonreadystatechange()}async _triggerWindowLoad(){await this._requestAnimFrame(),window.dispatchEvent(new Event("rocket-load")),await this._requestAnimFrame(),window.rocketonload&&window.rocketonload(),await this._requestAnimFrame(),this.allJQueries.forEach((e=>e(window).trigger("rocket-jquery-load"))),window.dispatchEvent(new Event("rocket-pageshow")),await this._requestAnimFrame(),window.rocketonpageshow&&window.rocketonpageshow()}_handleDocumentWrite(){const e=new Map;document.write=document.writeln=function(t){const n=document.currentScript,r=document.createRange(),i=n.parentElement;let o=e.get(n);void 0===o&&(o=n.nextSibling,e.set(n,o));const a=document.createDocumentFragment();r.setStart(a,0),a.appendChild(r.createContextualFragment(t)),i.insertBefore(a,o)}}async _requestAnimFrame(){return new Promise((e=>requestAnimationFrame(e)))}static run(){const e=new RocketLazyLoadScripts(["keydown","mousemove","touchmove","touchstart","touchend","wheel"]);e._addUserInteractionListener(e)}}RocketLazyLoadScripts.run();</script>
+
+<title>Most Popular Extension Builder for Magento 2 - Adobe Commerce – Mageplaza</title>
+<meta name="description" content="Top 231+ Magento 2 extensions by Mageplaza, 6+ mil of downloads by 75k+ merchants and developers worldwide. Official partner of Adobe and global Magento agencies. 1-year free support, 60-day money-back guarantee, .">
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Mageplaza">
+<meta property="og:description" content="">
+<meta property="og:image" content="">
+<meta property="og:url" content="https://www.mageplaza.com/index.html">
+<meta property="og:site_name" content="Mageplaza">
+
+<link rel="canonical" href="https://www.mageplaza.com/">
+<link href="https://www.mageplaza.com/feed.xml" type="application/atom+xml" rel="alternate" title="Mageplaza Feed">
+
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta http-equiv="cleartype" content="on">
+<link rel="apple-touch-icon" sizes="96x96" href="https://www.mageplaza.com/assets/images/icons/icon-96x96.png">
+<link rel="apple-touch-icon" sizes="128x128" href="https://www.mageplaza.com/assets/images/icons/icon-128x128.png">
+<link rel="apple-touch-icon" sizes="152x152" href="https://www.mageplaza.com/assets/images/icons/icon-152x152.png">
+<link rel="apple-touch-icon" sizes="384x384" href="https://www.mageplaza.com/assets/images/icons/icon-384x384.png">
+<link rel="apple-touch-icon" sizes="512x512" href="https://www.mageplaza.com/assets/images/icons/icon-512x512.png">
+<link rel="icon" type="image/png" sizes="512x512" href="https://www.mageplaza.com/assets/images/icons/icon-512x512.png">
+<link rel="icon" type="image/png" sizes="384x384" href="https://www.mageplaza.com/assets/images/icons/icon-384x384.png">
+<link rel="icon" type="image/png" sizes="192x192" href="https://www.mageplaza.com/assets/images/icons/icon-192x192.png">
+<link rel="icon" type="image/png" sizes="96x96" href="https://www.mageplaza.com/assets/images/icons/icon-96x96.png">
+<link rel="manifest" href="https://www.mageplaza.com/skin/frontend/mageplaza/default/img/ico/manifest.json">
+<meta name="msapplication-TileColor" content="#0099e5">
+<meta name="msapplication-TileImage" content="https://www.mageplaza.com/assets/images/icons/icon-144x144.png">
+<meta name="theme-color" content="#0099e5">
+
+<link rel="shortcut icon" href="https://www.mageplaza.com/favicon.ico">
+<style>
+    /* poppins-300 - latin */
+    @font-face {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 300;
+        src: url('https://www.mageplaza.com/fonts/poppins-v15-latin-300.eot'); /* IE9 Compat Modes */
+        src: local(''),
+        url('https://www.mageplaza.com/fonts/poppins-v15-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('https://www.mageplaza.com/fonts/poppins-v15-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
+        url('https://www.mageplaza.com/fonts/poppins-v15-latin-300.woff') format('woff'), /* Modern Browsers */
+        url('https://www.mageplaza.com/fonts/poppins-v15-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('https://www.mageplaza.com/fonts/poppins-v15-latin-300.svg#Poppins') format('svg'); /* Legacy iOS */
+        font-display: swap;
+    }
+    /* poppins-regular - latin */
+    @font-face {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        src: url('https://www.mageplaza.com/fonts/poppins-v15-latin-regular.eot'); /* IE9 Compat Modes */
+        src: local(''),
+        url('https://www.mageplaza.com/fonts/poppins-v15-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('https://www.mageplaza.com/fonts/poppins-v15-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+        url('https://www.mageplaza.com/fonts/poppins-v15-latin-regular.woff') format('woff'), /* Modern Browsers */
+        url('https://www.mageplaza.com/fonts/poppins-v15-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('https://www.mageplaza.com/fonts/poppins-v15-latin-regular.svg#Poppins') format('svg'); /* Legacy iOS */
+        font-display: swap;
+    }
+    /* poppins-500 - latin */
+    @font-face {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        src: url('https://www.mageplaza.com/fonts/poppins-v15-latin-500.eot'); /* IE9 Compat Modes */
+        src: local(''),
+        url('https://www.mageplaza.com/fonts/poppins-v15-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('https://www.mageplaza.com/fonts/poppins-v15-latin-500.woff2') format('woff2'), /* Super Modern Browsers */
+        url('https://www.mageplaza.com/fonts/poppins-v15-latin-500.woff') format('woff'), /* Modern Browsers */
+        url('https://www.mageplaza.com/fonts/poppins-v15-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('https://www.mageplaza.com/fonts/poppins-v15-latin-500.svg#Poppins') format('svg'); /* Legacy iOS */
+        font-display: swap;
+    }
+    /* poppins-600 - latin */
+    @font-face {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        src: url('https://www.mageplaza.com/fonts/poppins-v15-latin-600.eot'); /* IE9 Compat Modes */
+        src: local(''),
+        url('https://www.mageplaza.com/fonts/poppins-v15-latin-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('https://www.mageplaza.com/fonts/poppins-v15-latin-600.woff2') format('woff2'), /* Super Modern Browsers */
+        url('https://www.mageplaza.com/fonts/poppins-v15-latin-600.woff') format('woff'), /* Modern Browsers */
+        url('https://www.mageplaza.com/fonts/poppins-v15-latin-600.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('https://www.mageplaza.com/fonts/poppins-v15-latin-600.svg#Poppins') format('svg'); /* Legacy iOS */
+        font-display: swap;
+    }
+    /* poppins-700 - latin */
+    @font-face {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        src: url('https://www.mageplaza.com/fonts/poppins-v15-latin-700.eot'); /* IE9 Compat Modes */
+        src: local(''),
+        url('https://www.mageplaza.com/fonts/poppins-v15-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('https://www.mageplaza.com/fonts/poppins-v15-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+        url('https://www.mageplaza.com/fonts/poppins-v15-latin-700.woff') format('woff'), /* Modern Browsers */
+        url('https://www.mageplaza.com/fonts/poppins-v15-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('https://www.mageplaza.com/fonts/poppins-v15-latin-700.svg#Poppins') format('svg'); /* Legacy iOS */
+        font-display: swap;
+    }
+</style>
+
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WJZ6NX');</script>
+
+
+
+
+
+
+<link rel="stylesheet" href="./Mageplaza_files/combineicon.css">
+<link rel="stylesheet" href="./Mageplaza_files/combineanimateslide.css">
+<link rel="stylesheet" href="./Mageplaza_files/combinefunction.css">
+<link rel="stylesheet" href="./Mageplaza_files/combinetheme.css">
+<link href="./Mageplaza_files/css" rel="stylesheet">
+<style type="text/css">
+  .fix-cls-container-1{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -10px;
+    justify-content: center;
+    align-items: center;
+  }
+  .fix-cls-container-1 img{
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .fix-cls-container-1 > * {
+    width: 50%;
+    padding-left: 10px;
+    position: relative;
+  }
+  .fix-cls-container-1 > * > * {
+
+    padding-bottom: 50px;
+  }
+  .fix-cls-container {
+    padding-bottom: 100%;
+    position: relative;
+  }
+  .fix-cls-img {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: 0;
+  }
+  #hits {
+    display: none
+  }
+  #pagination {
+    display: none
+  }
+  .collapsed .btn-outline-dark{
+      -webkit-transform: rotate(-90deg);
+      transform: rotate(-90deg);
+      transform: rotate(-0deg);
+  }
+  span.btn-outline-dark {
+      margin-left: 1rem;
+      transition: .3s ease-in-out;
+  }
+  .btn-outline-dark{
+      -webkit-transform: rotate(-90deg);
+      transform: rotate(-45deg);
+      transform: rotate(-135deg);
+  }
+  div#loadMore {
+      transition: .3s ease-in-out;
+  }
+
+  .collapsed i.fas.fa-arrow-down.small{
+      -webkit-transform: rotate(-180deg);
+      transform: rotate(-180deg);
+  }
+
+  i.fas.fa-arrow-down.small {
+      transform: rotate(-0deg);
+      transition: .3s ease-in-out;
+  }
+  .nav-justified .nav-item {
+      flex-basis: revert;
+  }
+  .mp-tickbox{
+      color: #30e070 !important;
+  }
+
+  .price .price-amount {
+      display: inline-block;
+      font-size: 2rem;
+  }
+  .mp-bg-green{
+      background-color: #30e070 !important;
+      border-color: #30e070 !important;
+      color: #FFF !important;
+  }
+  .mp-bg-green:hover{
+      box-shadow: none !important;
+  }
+  .mp-btn-outline-green {
+      border-color: #30e070 !important;
+      color: #30e070 !important;
+  }
+  .mp-btn-outline-green:hover {
+      color: #fff !important;
+      background-color: #30e070;
+      border-color: #30e070;
+      box-shadow: none !important;
+  }
+  /*.u-slick__pagination li span {*/
+  /*    background-color: #30e070 !important;*/
+  /*}*/
+  /*.u-slick__pagination li.slick-active span {*/
+  /*    border-color: #30e070 !important;*/
+  /*}*/
+  .u-slick__pagination li span {
+      background-color: #D1D3D4 !important;
+  }
+  .u-slick__pagination li.slick-active span {
+      border-color: #D1D3D4 !important;
+  }
+  .price .price-currency {
+      font-size: 1.76471rem;
+      font-size: 1.29412rem;
+      vertical-align: top;
+      margin-top: 9px;
+  }
+  .max-small{
+      font-size: 70% !important;
+  }
+  .price .price-decimals {
+      display: inline-block;
+      font-size: 1.2rem;
+  }
+  .body--essentials .type-large {
+      font-size: 1.29412rem;
+      line-height: 1.82353rem;
+  }
+  header.card-header.text-center {
+      padding: 1rem 0px 0px 0px;
+  }
+  ul.list-group.list-group-flush.list-group-borderless li.list-group-item i{
+      color: #377dff!important;
+  }
+  .mp-btn-outline-dark {
+      border-color: #000000 !important;
+      color: #000000 !important;
+  }
+  .mp-btn-outline-dark:hover {
+      color: #fff !important;
+      background-color: #000000 !important;
+      border-color: #000000 !important;
+      box-shadow: none !important;
+  }
+  .mp-btn-outline-dark:not(:disabled):not(.disabled).active,.mp-btn-outline-dark:not(:disabled):not(.disabled):active,.show>.mp-btn-outline-dark.dropdown-toggle {
+      color: #fff !important;
+      background-color: #000000 !important;
+      border-color: #000000 !important;
+      box-shadow: none !important;
+  }
+  .mp-bg-dark{
+      background-color: #000000 !important;
+      border-color: #000000 !important;
+      color: #FFF !important;
+  }
+  .mp-bg-dark:hover{
+      box-shadow: none !important;
+  }
+  .text-scienceBlue{
+      color: #0249D3 !important;
+  }
+
+  .mp-btn-outline-scienceBlue {
+      border-color: #0249D3 !important;
+      color: #0249D3 !important;
+  }
+  .mp-btn-outline-scienceBlue:hover {
+      color: #fff !important;
+      background-color: #0249D3 !important;
+      border-color: #0249D3 !important;
+      box-shadow: none !important;
+  }
+  .mp-btn-outline-scienceBlue:not(:disabled):not(.disabled).active,.mp-btn-outline-scienceBlue:not(:disabled):not(.disabled):active,.show>.mp-btn-outline-scienceBlue.dropdown-toggle {
+      color: #fff !important;
+      background-color: #0249D3 !important;
+      border-color: #0249D3 !important;
+      box-shadow: none !important;
+  }
+  .mp-bg-scienceBlue{
+      background-color: #0249D3 !important;
+      border-color: #0249D3 !important;
+      color: #FFF !important;
+  }
+  .mp-bg-scienceBlue:hover{
+      box-shadow: none !important;
+  }
+
+  .text-canary{
+      color: #C9DC50 !important;
+  }
+  .text-dodgerBlue{
+      color: #25B9F6 !important;
+  }
+  .text-navyBlue{
+      color: #01007F !important;
+  }
+  .text-shamrock{
+      color: #39E070 !important;
+  }
+  .pb-1, .py-1 {
+      list-style: disc;
+  }
+  .nav-classic .nav-link {
+      padding: 0.5rem;
+  }
+  .mp-bg-navy{
+      background-color: #01007F !important;
+  }
+
+</style>
+<script type="application/ld+json">{
+	"@context": "http://schema.org",
+  	"@type": "Corporation",
+	"@id":"https://www.mageplaza.com/#corporation",
+ 	"name": "Magento",
+	"url": "https://www.mageplaza.com",
+	"logo": "https://www.mageplaza.com/skin/frontend/mageplaza/landingpage/images/logo.png",
+    "image":"https://www.mageplaza.com/skin/frontend/mageplaza/default/img/logo-white.png",	
+  	"description": "Magento: eCommerce Platforms | eCommerce Software for Selling Online",
+  	"telephone": "+1-855-733-5533",
+	"sameAs" : [ 
+		"https://magento.com/",
+		"https://en.wikipedia.org/wiki/Magento",
+		"https://twitter.com/magento",
+		"https://www.linkedin.com/company/magento",
+		"https://www.facebook.com/magento",
+		"https://www.youtube.com/user/magentocommerce"]
+}
+</script>
+<script type="application/ld+json">{
+	"@context": "http://schema.org",
+  	"@type": "Organization",
+	"@id":"https://www.mageplaza.com",
+ 	"name": "Mageplaza",
+	"url": "https://www.mageplaza.com",
+	"logo": "https://www.mageplaza.com/skin/frontend/mageplaza/landingpage/images/logo.png",
+    "image":"https://www.mageplaza.com/skin/frontend/mageplaza/default/img/logo-white.png",	
+	"email": "hi@mageplaza.com",
+  	"description": "Mageplaza is an Magento 2 extension marketplace. All extensions on Mageplaza.com are of high quality and developed for Magento eCommerce Platform.",
+	"sameAs" : [ 
+		"https://github.com/mageplaza",
+		"https://marketplace.magento.com/partner/mageplaza",
+		"https://www.facebook.com/mageplaza/",
+		"https://www.linkedin.com/company/mageplaza",
+		"https://www.youtube.com/channel/UCn-8IRnmFBeVsZJ6TotlrrQ",
+		"https://twitter.com/mageplaza",
+		"https://mageplaza.freshdesk.com/",
+		"https://packagist.org/packages/mageplaza/",
+		"https://www.goodfirms.co/company/mageplaza",
+		"https://www.trustpilot.com/review/mageplaza.com",
+		"https://www.pinterest.com/mageplaza/",
+		"https://www.crunchbase.com/organization/mageplaza"]
+}
+</script>
+<script type="application/ld+json">
+{
+"@context": "https://schema.org",
+"@type": "WebSite",
+"name": "Mageplaza. Magento 2 extension marketplace",
+"url": "https://www.mageplaza.com",
+"potentialAction": {
+"@type": "SearchAction",
+"target": "https://www.mageplaza.com/search/?q={search_term_string}",
+"query-input": "required name=search_term_string"
+}
+}
+</script>
+<script async="" src="./Mageplaza_files/api.js.download"></script><link href="./Mageplaza_files/instantsearch.min.js.download" rel="preload" as="script"><link href="./Mageplaza_files/algoliasearchLite.min.js.download" rel="preload" as="script"><link href="./Mageplaza_files/algoliasearchInit.js.download" rel="preload" as="script"><script src="./Mageplaza_files/jquery.mousewheel.min.js.download"></script></head>
+<body>
+<img alt="mageplaza.com" width="99999" height="99999" style="pointer-events: none; position: absolute; top: 0; left: 0; width: 99vw; height: 99vh; max-width: 99vw; max-height: 99vh;" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5OTk5OSIgaGVpZ2h0PSI5OTk5OSIgdmlld0JveD0iMCAwIDk5OTk5IDk5OTk5IiAvPg==">
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WJZ6NX"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+
+<header id="header" class="u-header u-header--show-hide-md u-scrolled" data-header-fix-moment="500" data-header-fix-effect="slide">
+
+<div id="searchPushTop" class="u-search-push-top pt-2 pb-2">
+<div class="container position-relative">
+<div class="u-search-push-top__content">
+<div id="searchbox" class="u-search-push-top__content ais-SearchBox"><div class="ais-SearchBox"><form action="https://www.mageplaza.com/" role="search" class="ais-SearchBox-form input-group" novalidate=""><input class="ais-SearchBox-input form-control form-control-sm pl-5 pr-5" type="search" placeholder="Search for products..." autocomplete="off" autocorrect="off" autocapitalize="off" maxlength="512"><button class="ais-SearchBox-submit" type="submit" title="Submit the search query."><svg class="ais-SearchBox-submitIcon" xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 40 40"> <path d="M26.804 29.01c-2.832 2.34-6.465 3.746-10.426 3.746C7.333 32.756 0 25.424 0 16.378 0 7.333 7.333 0 16.378 0c9.046 0 16.378 7.333 16.378 16.378 0 3.96-1.406 7.594-3.746 10.426l10.534 10.534c.607.607.61 1.59-.004 2.202-.61.61-1.597.61-2.202.004L26.804 29.01zm-10.426.627c7.323 0 13.26-5.936 13.26-13.26 0-7.32-5.937-13.257-13.26-13.257C9.056 3.12 3.12 9.056 3.12 16.378c0 7.323 5.936 13.26 13.258 13.26z"></path> </svg></button><button class="ais-SearchBox-reset" type="reset" title="Clear the search query." hidden=""><svg class="ais-SearchBox-resetIcon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" width="10" height="10"> <path d="M8.114 10L.944 2.83 0 1.885 1.886 0l.943.943L10 8.113l7.17-7.17.944-.943L20 1.886l-.943.943-7.17 7.17 7.17 7.17.943.944L18.114 20l-.943-.943-7.17-7.17-7.17 7.17-.944.943L0 18.114l.943-.943L8.113 10z"></path> </svg></button><span class="ais-SearchBox-loadingIndicator" hidden=""><svg class="ais-SearchBox-loadingIcon" width="16" height="16" viewBox="0 0 38 38" xmlns="http://www.w3.org/2000/svg" stroke="#444"> <g fill="none" fillrule="evenodd"> <g transform="translate(1 1)" strokewidth="2"> <circle strokeopacity=".5" cx="18" cy="18" r="18"></circle> <path d="M36 18c0-9.94-8.06-18-18-18"> <animatetransform attributeName="transform" type="rotate" from="0 18 18" to="360 18 18" dur="1s" repeatCount="indefinite"></animatetransform> </path> </g> </g> </svg></span></form></div></div>
+<p class="font-size-1 text-dark mt-3">
+Popular search:
+<a class="link-muted mp-popular-search" href="https://www.mageplaza.com/#" data-url-search="one%20step%20checkout" data-search="one step checkout">one step checkout,</a>
+<a class="link-muted mp-popular-search" href="https://www.mageplaza.com/#" data-url-search="reward%20points" data-search="reward%20points">reward points,</a>
+<a class="link-muted mp-popular-search" href="https://www.mageplaza.com/#" data-url-search="sizechart" data-search="sizechart">sizechart</a>
+<a class="link-muted mp-popular-search" href="https://www.mageplaza.com/#" data-url-search="related%20product" data-search="related product">related product</a>
+</p>
+</div>
+</div>
+</div>
+
+<div class="u-header__section">
+
+<div class="container u-header__hide-content pt-2">
+<div class="d-flex align-items-center">
+<div class="ml-auto">
+
+<div class="d-inline-block d-sm-none position-relative mr-2">
+<a id="jumpToDropdownInvoker" class="dropdown-nav-link dropdown-toggle d-flex align-items-center" href="javascript:;" role="button" aria-controls="jumpToDropdown" aria-haspopup="true" aria-expanded="false" data-unfold-event="hover" data-unfold-target="#jumpToDropdown" data-unfold-type="css-animation" data-unfold-duration="300" data-unfold-delay="300" data-unfold-hide-on-scroll="true" data-unfold-animation-in="slideInUp" data-unfold-animation-out="fadeOut">
+Jump to
+</a>
+<div id="jumpToDropdown" class="dropdown-menu dropdown-unfold u-unfold--css-animation u-unfold--hidden fadeOut" aria-labelledby="jumpToDropdownInvoker" style="animation-duration: 300ms;">
+
+<a class="dropdown-item" href="https://docs.mageplaza.com/" target="_blank" rel="nofollow">Docs</a>
+<a class="dropdown-item" href="https://www.mageplaza.com/contact.html" target="_blank" rel="nofollow">Contacts</a>
+</div>
+</div>
+
+
+<div class="d-none d-sm-inline-block ml-sm-auto">
+<ul class="list-inline mb-0">
+<li class="list-inline-item mr-0">
+
+</li>
+<li class="list-inline-item mr-0">
+<a class="u-header__navbar-link" href="https://docs.mageplaza.com/" target="_blank" rel="nofollow">User Guide</a>
+</li>
+<li class="list-inline-item mr-0">
+<a class="u-header__navbar-link" href="https://www.mageplaza.com/contact.html" target="_blank" rel="nofollow">Contacts</a>
+</li>
+</ul>
+</div>
+
+</div>
+<ul class="list-inline ml-2 mb-0">
+
+<li class="list-inline-item">
+<a id="mp-search-button" class="btn btn-xs btn-icon btn-text-secondary" role="button">
+<span class="fas fa-search btn-icon__inner"></span>
+</a>
+</li>
+
+
+<li class="list-inline-item position-relative">
+<a id="shoppingCartDropdownInvoker" class="btn btn-xs btn-icon btn-text-secondary" role="button">
+<span class="fas fa-shopping-cart btn-icon__inner"></span>
+<span id="item-num" class="badge badge-sm badge-primary mp-bg-blue badge-pos rounded-circle" style="display: none;">0</span>
+</a>
+<div id="shoppingCartDropdown" class="dropdown-menu dropdown-menu-right text-center p-2" aria-labelledby="shoppingCartDropdownInvoker" style="min-width: 350px;">
+<div class="shopping-cart-header">
+<h4 class="h6">Shopping cart</h4>
+</div>
+<hr class="mt-2 mb-2">
+<div class="shopping-cart-content mb-3 ml-2 mr-2"></div>
+<div class="top-cart-action clearfix p-2"></div>
+</div>
+</li>
+
+
+<li class="list-inline-item">
+
+<a id="sidebarNavToggler" class="btn btn-xs btn-icon btn-text-secondary" href="https://dashboard.mageplaza.com/customer/account/" target="_blank" rel="nofollow" role="button">
+<span class="fas fa-user-circle btn-icon__inner font-size-1"></span>
+</a>
+
+</li>
+
+</ul>
+</div>
+</div>
+
+<div id="logoAndNav" class="container">
+
+<nav class="js-mega-menu navbar navbar-expand-md u-header__navbar u-header__navbar--no-space hs-menu-initialized hs-menu-horizontal">
+
+<div class="logo-badge-container">
+<a class="navbar-brand u-header__navbar-brand u-header__navbar-brand-center" href="https://www.mageplaza.com/" aria-label="Front">
+<img src="./Mageplaza_files/logo.png" alt="Mageplaza logo">
+
+</a>
+<div class="badge-container">
+<img src="./Mageplaza_files/select_extensions_partner_header.png" alt="Magento Partner">
+<img class="badge-adobe" src="./Mageplaza_files/badge-adobe-innovate-full.png" alt="Adobe Innovate Exchange Partner">
+</div>
+</div>
+
+
+<button type="button" class="navbar-toggler btn u-hamburger" aria-label="Toggle navigation" aria-expanded="false" aria-controls="navBar" data-toggle="collapse" data-target="#navBar">
+<span id="hamburgerTrigger" class="u-hamburger__box">
+<span class="u-hamburger__inner"></span>
+</span>
+</button>
+
+
+<div id="navBar" class="collapse navbar-collapse u-header__navbar-collapse">
+<ul class="navbar-nav u-header__navbar-nav">
+
+<li class="nav-item hs-has-mega-menu u-header__nav-item" data-event="hover" data-animation-in="slideInUp" data-animation-out="fadeOut" data-max-width="600px" data-position="right">
+<a id="demosMegaMenu" class="nav-link u-header__nav-link u-header__nav-link-toggle" href="javascript:;" aria-haspopup="true" aria-expanded="false">Featured</a>
+
+<div class="hs-mega-menu w-100 u-header__sub-menu" aria-labelledby="demosMegaMenu" style="display: none;">
+<div class="row no-gutters">
+<div class="col-md-6">
+
+<div class="u-header__promo-item">
+<a class="u-header__promo-link" href="https://www.mageplaza.com/magento-2-one-step-checkout-extension/" title="One Step Checkout for Magento 2">
+<div class="media align-items-center">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 120 120" style="enable-background:new 0 0 120 120;" xml:space="preserve" class="injected-svg js-svg-injector u-header__promo-icon">
+<style type="text/css">
+	.icon-66-0{fill:none;stroke:#BDC5D1;}
+	.icon-66-1{fill:#377DFF;}
+	.icon-66-2{fill:#FFFFFF;}
+	.icon-66-3{fill:#BDC5D1;}
+</style>
+<polygon class="icon-66-0 fill-none stroke-gray-400" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="102.6,89.5 42.8,89.5 17.7,32.1 2.1,32.1 2.1,24.9 22.4,24.9 47.5,82.3 102.6,82.3 "></polygon>
+<path class="icon-66-1 fill-primary" d="M66.7,107.4c0,5.9-4.8,10.8-10.8,10.8s-10.8-4.8-10.8-10.8S50,96.7,55.9,96.7S66.7,101.5,66.7,107.4z"></path>
+<path class="icon-66-1 fill-primary" d="M102.6,107.4c0,5.9-4.8,10.8-10.8,10.8S81,113.4,81,107.4s4.8-10.8,10.8-10.8S102.6,101.5,102.6,107.4z"></path>
+<path class="icon-66-2 fill-white" d="M95.1,107.4c0,1.8-1.5,3.3-3.3,3.3s-3.3-1.5-3.3-3.3s1.5-3.3,3.3-3.3S95.1,105.6,95.1,107.4z"></path>
+<path class="icon-66-2 fill-white" d="M59.2,107.4c0,1.8-1.5,3.3-3.3,3.3c-1.8,0-3.3-1.5-3.3-3.3s1.5-3.3,3.3-3.3C57.7,104.2,59.2,105.6,59.2,107.4z"></path>
+<circle class="icon-66-3 fill-gray-400" opacity=".5" cx="95.1" cy="30.3" r="24.9"></circle>
+<circle class="icon-66-2 fill-white" opacity=".5" cx="91.8" cy="26.9" r="24.9"></circle>
+<path class="icon-66-1 fill-primary" d="M91.8,1.8C77.9,1.8,66.7,13,66.7,26.9S77.9,52,91.8,52s25.1-11.2,25.1-25.1S105.7,1.8,91.8,1.8z M104.5,34.5  l-5.1,5.1L91.8,32l-7.6,7.6l-5.1-5.1l7.6-7.6l-7.6-7.6l5.1-5.1l7.6,7.6l7.6-7.6l5.1,5.1l-7.6,7.6L104.5,34.5z"></path>
+<path class="icon-66-3 fill-gray-400" d="M91.8,60.8c-13.7,0-25.4-8.7-30-20.8c-0.2-0.4-0.6-0.7-1-0.7H39.6c-0.8,0-1.3,0.8-1,1.5L52,74.4  c0.2,0.4,0.6,0.7,1,0.7h48.7c0.5,0,0.9-0.3,1-0.7l6.7-16.7c0.4-1-0.7-1.9-1.6-1.4C103.2,59.2,97.7,60.8,91.8,60.8z"></path>
+</svg>
+<div class="media-body">
+<span class="u-header__promo-title">One Step Checkout</span>
+<small class="u-header__promo-text">Simplify the checkout process and 2x sales</small>
+</div>
+</div>
+</a>
+</div>
+
+
+<div class="u-header__promo-item">
+<a class="u-header__promo-link" href="https://www.mageplaza.com/magento-2-layered-navigation-extension/">
+<div class="media align-items-center">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 120 120" style="enable-background:new 0 0 120 120;" xml:space="preserve" class="injected-svg js-svg-injector u-header__promo-icon">
+<style type="text/css">
+	.icon-37-0{fill:none;stroke:#BDC5D1;}
+	.icon-37-1{fill:#BDC5D1;}
+	.icon-37-2{fill:#377DFF;}
+</style>
+<path class="icon-37-0 fill-none stroke-gray-400" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M5.9,88.9c-5.3-3-5.3-8,0-11l44.4-25.7c5.3-3,13.8-3,19.1,0l44.5,25.7c5.3,3,5.3,8,0,11l-44.4,25.7  c-5.3,3-13.8,3-19.1,0L5.9,88.9z"></path>
+<path class="icon-37-1 fill-gray-400" opacity=".5" d="M4.7,65.6c-5.4-3.1-5.4-8.2,0-11.3l45.5-26.2c5.4-3.1,14.2-3.1,19.5,0l45.5,26.2c5.4,3.1,5.4,8.2,0,11.3  L69.8,91.8c-5.4,3.1-14.2,3.1-19.5,0L4.7,65.6z"></path>
+<path class="icon-37-2 fill-primary" d="M4.7,43c-5.4-3.1-5.4-8.2,0-11.3L50.2,5.5c5.4-3.1,14.2-3.1,19.5,0l45.5,26.2c5.4,3.1,5.4,8.2,0,11.3L69.8,69.3  c-5.4,3.1-14.2,3.1-19.5,0L4.7,43z"></path>
+</svg>
+<div class="media-body">
+<span class="u-header__promo-title">Layered Navigation</span>
+<small class="u-header__promo-text">Stop challenging the customer's patience</small>
+</div>
+</div>
+</a>
+</div>
+
+
+<div class="u-header__promo-item">
+<a class="u-header__promo-link" href="https://www.mageplaza.com/magento-2-reward-points-extension/">
+<div class="media align-items-center">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 120 120" style="enable-background:new 0 0 120 120;" xml:space="preserve" class="injected-svg js-svg-injector u-header__promo-icon">
+<style type="text/css">
+	.icon-31-0{fill:none;stroke:#377DFF;}
+	.icon-31-1{fill:none;stroke:#BDC5D1;}
+	.icon-31-2{fill:#377DFF;}
+	.icon-31-3{fill:none;stroke:#FFFFFF;}
+	.icon-31-4{fill:#BDC5D1;}
+	.icon-31-5{fill:#FFFFFF;stroke:#BDC5D1;}
+</style>
+<g>
+	<path class="icon-31-0 fill-none stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M67.7,67.4c1.3,1.7,3.3,2.8,5.6,2.8c3.8,0,6.9-3.1,6.9-6.9c0-3.8-3.1-6.9-6.9-6.9h-0.1c-3,0-5.3-2.4-5.3-5.3   c0-3,2.4-5.3,5.3-5.3c1.8,0,3.3,0.9,4.3,2.2"></path>
+	<line class="icon-31-0 fill-none stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="73.2" y1="45.7" x2="73.2" y2="42.7"></line>
+	<line class="icon-31-0 fill-none stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="73.2" y1="73.2" x2="73.2" y2="70.2"></line>
+</g>
+<g>
+	<line class="icon-31-1 fill-none stroke-gray-400" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="65.3" y1="23.3" x2="65.3" y2="15.1"></line>
+	<line class="icon-31-1 fill-none stroke-gray-400" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="82.7" y1="15.1" x2="82.7" y2="23.3"></line>
+</g>
+<path class="icon-31-2 fill-primary" d="M59.1,0.9h29.8c0.8,0,1.3,0.8,1,1.5l-5.7,11.9c-0.2,0.4-0.6,0.6-1,0.6H64.8c-0.4,0-0.8-0.2-1-0.6L58.1,2.4  C57.8,1.7,58.3,0.9,59.1,0.9z"></path>
+<path class="icon-31-1 fill-none stroke-gray-400" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M101.5,88.3c1.3-2.2,2.1-4.7,2.1-7.5V51.6c0-13.3-8.8-24.6-20.9-28.3H65.3c-12.1,3.7-20.9,15-20.9,28.3v24.7"></path>
+<g>
+	<line class="icon-31-3 fill-none stroke-white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="76.9" y1="11.7" x2="79.3" y2="5.4"></line>
+	<line class="icon-31-3 fill-none stroke-white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="71.1" y1="11.7" x2="68.6" y2="5.4"></line>
+</g>
+<g>
+	<line class="icon-31-1 fill-none stroke-gray-400" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="86.9" y1="59.3" x2="88.7" y2="59.3"></line>
+	<line class="icon-31-1 fill-none stroke-gray-400" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="59.3" y1="59.3" x2="61" y2="59.3"></line>
+</g>
+<path class="icon-31-4 fill-gray-400" opacity=".5" d="M90.7,93.8l21.3-5.8c2.6-0.7,5.3,0.7,6.2,3.3l0,0c0.7,2.3-0.2,5.1-2.6,6.2l-41.3,20.7  c-4.6,2.2-9.9,2.5-14.4,0.5L37,108.9H26.7c-0.7,0-1.3-0.6-1.3-1.3v-8L90.7,93.8z"></path>
+<path class="icon-31-5 fill-white stroke-gray-400" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M77.8,86.3l34.3-7.1c2.6-0.7,5.3,0.7,6.2,3.3l0,0c0.7,2.3-0.2,5.1-2.6,6.2l-41.3,20.7  c-4.6,2.2-9.9,2.5-14.4,0.5L37,100.1H25.5"></path>
+<path class="icon-31-5 fill-white stroke-gray-400" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M25.3,67.5h11.6L61.3,75h14.3c3.3,0,6,2.7,6,6l0,0c0,3.1-2.5,5.5-5.5,5.5H61.3c-3.2,0-5.8,2.6-5.8,5.8l0,0"></path>
+<path class="icon-31-2 fill-primary" d="M1.9,104.2h21.7c1,0,1.7-0.7,1.7-1.7V65.1c0-1-0.7-1.7-1.7-1.7H1.9c-1,0-1.7,0.7-1.7,1.7v37.3  C0.2,103.3,0.9,104.2,1.9,104.2z"></path>
+<line class="icon-31-3 fill-none stroke-white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="13.8" y1="78.8" x2="13.8" y2="82.6"></line>
+</svg>
+<div class="media-body">
+<span class="u-header__promo-title">Reward Points</span>
+<small class="u-header__promo-text">Boost your customer loyalty effortlessly</small>
+</div>
+</div>
+</a>
+</div>
+
+
+<div class="u-header__promo-item">
+<a class="u-header__promo-link" href="https://www.mageplaza.com/magento-2-affiliate-extension/">
+<div class="media align-items-center">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 120 120" style="enable-background:new 0 0 120 120;" xml:space="preserve" class="injected-svg js-svg-injector u-header__promo-icon">
+<style type="text/css">
+	.icon-7-0{fill:none;stroke:#FFFFFF;}
+	.icon-7-1{fill:#BDC5D1;}
+	.icon-7-2{fill:#377DFF;}
+	.icon-7-3{fill:none;stroke:#BDC5D1;}
+	.icon-7-4{fill:none;stroke:#377DFF;}
+</style>
+<path class="icon-7-1 fill-gray-400" opacity=".5" d="M112.1,8.4H22.7c-3.4,0-6.1,2.8-6.1,6.1v23.4c0,3.4,2.8,6.1,6.1,6.1h5.1v10l15.7-10h13.6l10.3,10.3L77.8,44  h13.6L107,54V44h5.1c3.4,0,6.1-2.8,6.1-6.1V14.5C118.2,11.1,115.5,8.4,112.1,8.4z"></path>
+<path class="icon-7-2 fill-primary" d="M104.7,2.6H15.3c-3.4,0-6.1,2.8-6.1,6.1v23.4c0,3.4,2.8,6.1,6.1,6.1h5.1v10l15.7-10h13.6L60,48.6l10.3-10.3  h13.6l15.7,10v-10h5.1c3.4,0,6.1-2.8,6.1-6.1V8.7C110.8,5.4,108.1,2.6,104.7,2.6z"></path>
+<g>
+	<path class="icon-7-3 fill-none stroke-gray-400" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M106.4,76.8c0.4-1.2,0.6-2.6,0.6-3.9c0-6.6-4.7-11.5-10.5-11.5c-5.8,0-10.5,4.9-10.5,11.5   c0,1.4,0.2,2.7,0.6,3.9c-0.8,0.5-1.4,1.5-1.4,2.6c0,1.4,0.9,2.6,2.2,3c1.5,4.5,5,7.7,9.1,7.7c4.1,0,7.6-3.2,9.1-7.7   c1.3-0.4,2.2-1.5,2.2-3C107.7,78.3,107.2,77.4,106.4,76.8z"></path>
+	<path class="icon-7-3 fill-none stroke-gray-400" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M101.6,71l-0.5-2.6c0,0-1.1,0-2.9,1.6c-3.7,3.4-7.9,0.7-7.9,0.7"></path>
+	<path class="icon-7-3 fill-none stroke-gray-400" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M86.5,74.8"></path>
+	<path class="icon-7-3 fill-none stroke-gray-400" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M105.6,95.9l10,4.2c1.9,0.9,2.6,2.8,2.6,4.7v0.4v6.8"></path>
+	<polyline class="icon-7-4 fill-none stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="96.6,97.4 100.4,101.8 105.6,96.1 103.4,92.2  "></polyline>
+	<path class="icon-7-3 fill-none stroke-gray-400" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M87.5,95.9l-9.8,4c-0.6,0.4-1.1,0.9-1.6,1.5c-0.7,0.9-1,2-1,3.2v7.4"></path>
+	<path class="icon-7-3 fill-none stroke-gray-400" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M87,80.4"></path>
+	<polyline class="icon-7-4 fill-none stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="96.6,97.4 92.7,101.8 87.5,96.1 89.7,92.2  "></polyline>
+	<line class="icon-7-4 fill-none stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="103.4" y1="92.2" x2="96.6" y2="97.4"></line>
+	<line class="icon-7-4 fill-none stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="89.7" y1="92.2" x2="96.6" y2="97.4"></line>
+	<path class="icon-7-3 fill-none stroke-gray-400" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M118.2,112c-6.1,3.4-13.5,5.4-21.5,5.4c-8,0-15.4-2-21.5-5.4"></path>
+</g>
+<g>
+	<path class="icon-7-3 fill-none stroke-gray-400" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M69.7,70.2c0.4-1.2,0.6-2.6,0.6-3.9c0-6.6-4.7-11.5-10.5-11.5c-5.8,0-10.5,4.9-10.5,11.5   c0,1.4,0.2,2.7,0.6,3.9c-0.8,0.5-1.4,1.5-1.4,2.6c0,1.4,0.9,2.6,2.2,3c1.5,4.5,5,7.7,9.1,7.7c4.1,0,7.6-3.2,9.1-7.7   c1.3-0.4,2.2-1.5,2.2-3C71.1,71.7,70.5,70.7,69.7,70.2z"></path>
+	<path class="icon-7-3 fill-none stroke-gray-400" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M65,64.4l-0.5-2.6c0,0-1.1,0-2.9,1.6c-3.7,3.4-7.9,0.7-7.9,0.7"></path>
+	<path class="icon-7-3 fill-none stroke-gray-400" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M49.9,68.2"></path>
+	<path class="icon-7-3 fill-none stroke-gray-400" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M68.9,89.3l10,4.2c1.9,0.9,2.6,2.8,2.6,4.7"></path>
+	<polyline class="icon-7-4 fill-none stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="59.9,90.8 63.8,95.1 69,89.5 66.7,85.6  "></polyline>
+	<path class="icon-7-3 fill-none stroke-gray-400" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M50.9,89.3l-9.8,4c-0.6,0.4-1.1,0.9-1.6,1.5c-0.7,0.9-1,2-1,3.2"></path>
+	<path class="icon-7-3 fill-none stroke-gray-400" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M50.3,73.8"></path>
+	<polyline class="icon-7-4 fill-none stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="59.9,90.8 56,95.1 50.8,89.5 53.1,85.6  "></polyline>
+	<line class="icon-7-4 fill-none stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="66.7" y1="85.6" x2="59.9" y2="90.8"></line>
+	<line class="icon-7-4 fill-none stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="53.1" y1="85.6" x2="59.9" y2="90.8"></line>
+	<path class="icon-7-3 fill-none stroke-gray-400" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M75.2,108.2c-4.6,1.6-9.8,2.5-15.2,2.5c-5.5,0-10.6-0.9-15.3-2.6"></path>
+</g>
+<g>
+	<path class="icon-7-3 fill-none stroke-gray-400" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M33,76.8c0.4-1.2,0.6-2.6,0.6-3.9c0-6.6-4.7-11.5-10.5-11.5c-5.8,0-10.5,4.9-10.5,11.5c0,1.4,0.2,2.7,0.6,3.9   c-0.8,0.5-1.4,1.5-1.4,2.6c0,1.4,0.9,2.6,2.2,3c1.5,4.5,5,7.7,9.1,7.7c4.1,0,7.6-3.2,9.1-7.7c1.3-0.4,2.2-1.5,2.2-3   C34.4,78.3,33.8,77.4,33,76.8z"></path>
+	<path class="icon-7-3 fill-none stroke-gray-400" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M28.3,71l-0.5-2.6c0,0-1.1,0-2.9,1.6c-3.7,3.4-7.9,0.7-7.9,0.7"></path>
+	<path class="icon-7-3 fill-none stroke-gray-400" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M13.2,74.8"></path>
+	<path class="icon-7-3 fill-none stroke-gray-400" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M32.2,95.9l10,4.2c1.9,0.9,2.6,2.8,2.6,4.7v0.4v6.8"></path>
+	<polyline class="icon-7-4 fill-none stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="23.2,97.4 27.1,101.8 32.3,96.1 30.1,92.2  "></polyline>
+	<path class="icon-7-3 fill-none stroke-gray-400" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M14.2,95.9l-9.8,4c-0.6,0.4-1.1,0.9-1.6,1.5c-0.7,0.9-1,2-1,3.2v7.4"></path>
+	<path class="icon-7-3 fill-none stroke-gray-400" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M13.6,80.4"></path>
+	<polyline class="icon-7-4 fill-none stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="23.2,97.4 19.4,101.8 14.2,96.1 16.4,92.2  "></polyline>
+	<line class="icon-7-4 fill-none stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="30.1" y1="92.2" x2="23.2" y2="97.4"></line>
+	<line class="icon-7-4 fill-none stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="16.4" y1="92.2" x2="23.2" y2="97.4"></line>
+	<path class="icon-7-3 fill-none stroke-gray-400" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M44.8,112c-6.1,3.4-13.5,5.4-21.5,5.4c-8,0-15.4-2-21.5-5.4"></path>
+</g>
+<polygon class="icon-7-0 fill-none stroke-white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="60.4,9.1 49.2,25.8 59.5,25.8 58.1,37 70.8,20 59.5,20 "></polygon>
+<g opacity=".5">
+	<g>
+		<line class="icon-7-0 fill-none stroke-white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="81.6" y1="14.6" x2="96.7" y2="14.6"></line>
+		<line class="icon-7-0 fill-none stroke-white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="81.6" y1="21.2" x2="96.7" y2="21.2"></line>
+		<line class="icon-7-0 fill-none stroke-white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="81.6" y1="27.8" x2="87.8" y2="27.8"></line>
+	</g>
+	<g>
+		<line class="icon-7-0 fill-none stroke-white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="23.3" y1="14.6" x2="38.4" y2="14.6"></line>
+		<line class="icon-7-0 fill-none stroke-white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="23.3" y1="21.2" x2="38.4" y2="21.2"></line>
+		<line class="icon-7-0 fill-none stroke-white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="23.3" y1="27.8" x2="29.5" y2="27.8"></line>
+	</g>
+</g>
+</svg>
+<div class="media-body">
+<span class="u-header__promo-title">Affiliate</span>
+<small class="u-header__promo-text">The most completed referral solution</small>
+</div>
+</div>
+</a>
+</div>
+
+</div>
+<div class="col-md-6">
+
+<div class="u-header__promo-item">
+<a class="u-header__promo-link" href="https://avada.io/platform/magento/?utm_source=mageplaza.com&amp;utm_campaign=menu-item">
+<div class="media align-items-center">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 120 120" style="enable-background:new 0 0 120 120;" xml:space="preserve" class="injected-svg js-svg-injector u-header__promo-icon">
+<style type="text/css">
+	.icon-32-1{fill:#BDC5D1;}
+	.icon-32-2{fill:#FFFFFF;stroke:#BDC5D1;}
+	.icon-32-3{fill:none;stroke:#377DFF;}
+	.icon-32-4{fill:#377DFF;}
+	.icon-32-5{fill:none;stroke:#FFFFFF;}
+</style>
+<path class="icon-32-1 fill-gray-400" opacity=".5" d="M73,46.6l-7.5-7.7l-2-2.1l-2.2-2.3l-9.5-9.8l-24.5-5.4L7.4,38.6l4.7,24.7l9.5,9.8l2.1,2.2l2.1,2.2L66,118.6  c1.8,1.8,4.7,1.9,6.6,0.1l32.9-32c1.8-1.8,1.9-4.7,0.1-6.6l-5.7-5.8"></path>
+<path class="icon-32-2 fill-white stroke-gray-400" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M75.1,29.1l-7.5-7.7l-2-2.1L63.4,17l-9.5-9.8L29.4,1.8L9.6,21.1l4.7,24.7l9.5,9.8l2.1,2.2l2.1,2.2l40.1,41.2  c1.8,1.8,4.7,1.9,6.6,0.1l32.9-32c1.8-1.8,1.9-4.7,0.1-6.6l-5.7-5.8"></path>
+<ellipse transform="matrix(0.7169 -0.6972 0.6972 0.7169 -9.027869e-02 78.3307)" class="icon-32-1 fill-gray-400" opacity=".5" cx="96.4" cy="39.3" rx="16.2" ry="16.2"></ellipse>
+<ellipse transform="matrix(0.7169 -0.6972 0.6972 0.7169 -7.8341 29.0343)" class="icon-32-3 fill-none stroke-primary" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="31.8" cy="24.2" rx="7" ry="7"></ellipse>
+<ellipse transform="matrix(0.7169 -0.6972 0.6972 0.7169 -4.81 73.837)" class="icon-32-4 fill-primary" cx="88.5" cy="42.8" rx="16.2" ry="16.2"></ellipse>
+<line class="icon-32-5 fill-none stroke-white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="82.6" y1="37" x2="93.1" y2="47.8"></line>
+<line class="icon-32-5 fill-none stroke-white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="82.4" y1="47.6" x2="93.2" y2="37.1"></line>
+<line class="icon-32-3 fill-none stroke-primary" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="57.2" y1="54.8" x2="49.1" y2="62.4"></line>
+<line class="icon-32-3 fill-none stroke-primary" opacity=".5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="66.9" y1="59.3" x2="55.9" y2="69.7"></line>
+<line class="icon-32-3 fill-none stroke-primary" opacity=".5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="73.4" y1="66.8" x2="62.7" y2="76.9"></line>
+</svg>
+<div class="media-body">
+<span class="u-header__promo-title">Marketing Automation</span>
+<small class="u-header__promo-text">Selling machine, automate selling process</small>
+</div>
+</div>
+</a>
+</div>
+
+
+<div class="u-header__promo-item">
+<a class="u-header__promo-link" href="https://www.mageplaza.com/magento-2-seo-extension/">
+<div class="media align-items-center">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 120 120" style="enable-background:new 0 0 120 120;" xml:space="preserve" class="injected-svg js-svg-injector u-header__promo-icon">
+<style type="text/css">
+	.icon-1-0{fill:#BDC5D1;}
+	.icon-1-1{fill:none;stroke:#BDC5D1;}
+	.icon-1-2{fill:#377DFF;}
+	.icon-1-3{fill:none;stroke:#FFFFFF;}
+	.icon-1-4{fill:none;stroke:#377DFF;}
+</style>
+<circle class="icon-1-0 fill-gray-400" opacity=".5" cx="72" cy="49.3" r="31.4"></circle>
+<line class="icon-1-1 fill-none stroke-gray-400" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="87.2" y1="88.7" x2="77.9" y2="79.5"></line>
+<circle class="icon-1-2 fill-primary" cx="58.5" cy="54.7" r="31.4"></circle>
+<path class="icon-1-3 fill-none stroke-white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M80.3,41.6c2.5,4.2,3.7,9.1,3.5,13.9c-0.2,6.2-2.7,12.3-7.5,17c-9.9,9.9-26,9.9-36,0c-9.9-9.9-9.9-26,0-36  c9.9-9.9,26-9.9,36,0"></path>
+<line class="icon-1-1 fill-none stroke-gray-400" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="86" y1="77.6" x2="92.2" y2="83.8"></line>
+<path class="icon-1-1 fill-none stroke-gray-400" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M115.9,112.5L115.9,112.5c-2.6,2.6-6.9,2.6-9.5,0L84.9,91.1l9.5-9.5l21.5,21.5  C118.5,105.6,118.5,109.9,115.9,112.5z"></path>
+<path class="icon-1-3 fill-none stroke-white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M54.5,37.9c0,0-10.6,0.6-12.6,11.4"></path>
+<path class="icon-1-1 fill-none stroke-gray-400" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M36.6,83H7c-2.6,0-4.8-2.1-4.8-4.8V10.8c0-2.6,2.1-4.8,4.8-4.8h103.2c2.6,0,4.8,2.1,4.8,4.8v67.4  c0,2.6-2.1,4.8-4.8,4.8h-8.2"></path>
+<ellipse class="icon-1-1 fill-none stroke-gray-400" opacity=".5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="35.2" cy="16" rx="3.1" ry="3.1"></ellipse>
+<circle class="icon-1-1 fill-none stroke-gray-400" opacity=".5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="23.6" cy="16" r="3.1"></circle>
+<circle class="icon-1-4 fill-none stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="12" cy="16" r="3.1"></circle>
+</svg>
+<div class="media-body">
+<span class="u-header__promo-title">SEO</span>
+<small class="u-header__promo-text">Rank #1 your keywords</small>
+</div>
+</div>
+</a>
+</div>
+
+
+<div class="u-header__promo-item">
+<a class="u-header__promo-link" href="https://www.mageplaza.com/magento-2-pdf-invoice-extension/">
+<div class="media align-items-center">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 120 120" style="enable-background:new 0 0 120 120;" xml:space="preserve" class="injected-svg js-svg-injector u-header__promo-icon">
+<style type="text/css">
+	.icon-40-0{fill:#BDC5D1;}
+	.icon-40-1{fill:#FFFFFF;stroke:#BDC5D1;}
+	.icon-40-2{fill:none;stroke:#BDC5D1;}
+	.icon-40-3{fill:none;stroke:#377DFF;}
+	.icon-40-4{fill:#377DFF;}
+	.icon-40-5{fill:#FFFFFF;}
+</style>
+<path class="icon-40-0 fill-gray-400" opacity=".4" d="M97,28.8h17.5c3.1,0,5.6,2.5,5.6,5.6v67.5c0,3.1-2.5,5.6-5.6,5.6H17.1c-3.1,0-5.6-2.5-5.6-5.6V34.3  c0-3.1,2.5-5.6,5.6-5.6h17.5"></path>
+<path class="icon-40-1 fill-white stroke-gray-400" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M86.7,21.3h17.5c3.1,0,5.6,2.5,5.6,5.6v67.5c0,3.1-2.5,5.6-5.6,5.6H6.8c-3.1,0-5.6-2.5-5.6-5.6V26.9  c0-3.1,2.5-5.6,5.6-5.6h17.5"></path>
+<line class="icon-40-2 fill-none stroke-gray-400" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="55.6" y1="35.7" x2="78.4" y2="35.7"></line>
+<line class="icon-40-3 fill-none stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="55.6" y1="29.4" x2="78.4" y2="29.4"></line>
+<polygon class="icon-40-2 fill-none stroke-gray-400" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="73.6,18 86.7,18 73.6,4.8 "></polygon>
+<polyline class="icon-40-2 fill-none stroke-gray-400" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="24.3,73.3 24.3,4.8 73.6,4.8 "></polyline>
+<line class="icon-40-2 fill-none stroke-gray-400" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="86.7" y1="18" x2="86.7" y2="73.3"></line>
+<path class="icon-40-0 fill-gray-400" opacity=".5" d="M43.5,28.8l1.9,3.8c0.1,0.1,0.2,0.2,0.3,0.2l4.1,0.6c0.4,0.1,0.5,0.5,0.2,0.8l-3,2.9C47,37.2,47,37.4,47,37.5  l0.7,4.1c0.1,0.4-0.3,0.6-0.7,0.5l-3.7-2c-0.1-0.1-0.3-0.1-0.4,0l-3.7,2c-0.3,0.2-0.7-0.1-0.7-0.5l0.7-4.1c0-0.1,0-0.3-0.1-0.4  l-3-2.9c-0.3-0.3-0.1-0.7,0.2-0.8l4.1-0.6c0.1,0,0.3-0.1,0.3-0.2l1.9-3.8C42.9,28.5,43.4,28.5,43.5,28.8z"></path>
+<path class="icon-40-4 fill-primary" d="M40.2,25.5l1.9,3.8c0.1,0.1,0.2,0.2,0.3,0.2l4.1,0.6c0.4,0.1,0.5,0.5,0.2,0.8l-3,2.9c-0.1,0.1-0.2,0.3-0.1,0.4  l0.7,4.1c0.1,0.4-0.3,0.6-0.7,0.5l-3.7-2c-0.1-0.1-0.3-0.1-0.4,0l-3.7,2c-0.3,0.2-0.7-0.1-0.7-0.5l0.7-4.1c0-0.1,0-0.3-0.1-0.4  l-3-2.9c-0.3-0.3-0.1-0.7,0.2-0.8l4.1-0.6c0.1,0,0.3-0.1,0.3-0.2l1.9-3.8C39.6,25.2,40.1,25.2,40.2,25.5z"></path>
+<path class="icon-40-5 fill-white" d="M39.9,30.2l0.5,1.1c0,0,0.1,0.1,0.1,0.1l1.2,0.2c0.1,0,0.1,0.1,0.1,0.2L41,32.6c0,0,0,0.1,0,0.1l0.2,1.2  c0,0.1-0.1,0.2-0.2,0.1l-1.1-0.6c0,0-0.1,0-0.1,0L38.7,34c-0.1,0-0.2,0-0.2-0.1l0.2-1.2c0,0,0-0.1,0-0.1l-0.9-0.8  c-0.1-0.1,0-0.2,0.1-0.2l1.2-0.2c0,0,0.1,0,0.1-0.1l0.5-1.1C39.8,30.1,39.9,30.1,39.9,30.2z"></path>
+<line class="icon-40-3 fill-none stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="55.6" y1="51" x2="78.4" y2="51"></line>
+<line class="icon-40-2 fill-none stroke-gray-400" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="55.6" y1="57.4" x2="78.4" y2="57.4"></line>
+<path class="icon-40-0 fill-gray-400" opacity=".5" d="M43.5,50.5l1.9,3.8c0.1,0.1,0.2,0.2,0.3,0.2l4.1,0.6c0.4,0.1,0.5,0.5,0.2,0.8l-3,2.9C47,58.9,47,59,47,59.2  l0.7,4.1c0.1,0.4-0.3,0.6-0.7,0.5l-3.7-2c-0.1-0.1-0.3-0.1-0.4,0l-3.7,2c-0.3,0.2-0.7-0.1-0.7-0.5l0.7-4.1c0-0.1,0-0.3-0.1-0.4  l-3-2.9c-0.3-0.3-0.1-0.7,0.2-0.8l4.1-0.6c0.1,0,0.3-0.1,0.3-0.2l1.9-3.8C42.9,50.1,43.4,50.1,43.5,50.5z"></path>
+<path class="icon-40-4 fill-primary" d="M40.2,47.2l1.9,3.8c0.1,0.1,0.2,0.2,0.3,0.2l4.1,0.6c0.4,0.1,0.5,0.5,0.2,0.8l-3,2.9c-0.1,0.1-0.2,0.3-0.1,0.4  l0.7,4.1c0.1,0.4-0.3,0.6-0.7,0.5l-3.7-2c-0.1-0.1-0.3-0.1-0.4,0l-3.7,2c-0.3,0.2-0.7-0.1-0.7-0.5l0.7-4.1c0-0.1,0-0.3-0.1-0.4  l-3-2.9c-0.3-0.3-0.1-0.7,0.2-0.8l4.1-0.6c0.1,0,0.3-0.1,0.3-0.2l1.9-3.8C39.6,46.8,40.1,46.8,40.2,47.2z"></path>
+<line class="icon-40-2 fill-none stroke-gray-400" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="95.3" y1="73.3" x2="15.7" y2="73.3"></line>
+<path class="icon-40-2 fill-none stroke-gray-400" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M109.8,94.4"></path>
+<path class="icon-40-5 fill-white" d="M39.9,51.8l0.5,1.1c0,0,0.1,0.1,0.1,0.1l1.2,0.2c0.1,0,0.1,0.1,0.1,0.2L41,54.2c0,0,0,0.1,0,0.1l0.2,1.2  c0,0.1-0.1,0.2-0.2,0.1l-1.1-0.6c0,0-0.1,0-0.1,0l-1.1,0.6c-0.1,0-0.2,0-0.2-0.1l0.2-1.2c0,0,0-0.1,0-0.1l-0.9-0.8  c-0.1-0.1,0-0.2,0.1-0.2l1.2-0.2c0,0,0.1,0,0.1-0.1l0.5-1.1C39.8,51.8,39.9,51.8,39.9,51.8z"></path>
+<path class="icon-40-2 fill-none stroke-gray-400" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M99.2,83"></path>
+<line class="icon-40-2 fill-none stroke-gray-400" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="1.2" y1="83" x2="109.8" y2="83"></line>
+<path class="icon-40-3 fill-none stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M58.5,91.8c0,1.7-1.4,3-3,3c-1.7,0-3-1.4-3-3c0-1.7,1.4-3,3-3C57.2,88.7,58.5,90.1,58.5,91.8z"></path>
+<path class="icon-40-2 fill-none stroke-gray-400" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M8.7,83"></path>
+<line class="icon-40-3 fill-none stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="83.5" y1="115.2" x2="27.6" y2="115.2"></line>
+<polygon class="icon-40-4 fill-primary" points="41.9,99.1 38.7,114.3 72.4,114.3 69.1,99.1 "></polygon>
+</svg>
+<div class="media-body">
+<span class="u-header__promo-title">PDF Invoice</span>
+<small class="u-header__promo-text">Invoice customers with ease</small>
+</div>
+</div>
+</a>
+</div>
+
+
+<div class="u-header__promo-item">
+<a class="u-header__promo-link" href="https://www.mageplaza.com/magento-2-product-feed-extension/">
+<div class="media align-items-center">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 120 120" style="enable-background:new 0 0 120 120;" xml:space="preserve" class="injected-svg js-svg-injector u-header__promo-icon">
+<style type="text/css">
+	.icon-29-0{fill:none;stroke:#BDC5D1;}
+	.icon-29-1{fill:#BDC5D1;}
+	.icon-29-2{fill:#377DFF;}
+</style>
+<g>
+	<path class="icon-29-0 fill-none stroke-gray-400" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M52.9,42.5c-2.7,0-5.2,1.2-6.8,3.2v-17h-36c-5,0-9.1,4.1-9.1,9.1v36h16.7c-1.8-1.6-3-4-3-6.6   c0-4.9,3.9-8.8,8.8-8.8c4.9,0,8.8,3.9,8.8,8.8c0,2.6-1.1,5-3,6.6h16.7V56.8c1.6,2,4,3.2,6.8,3.2c4.8,0,8.7-3.9,8.7-8.7   C61.7,46.4,57.8,42.5,52.9,42.5z"></path>
+	<path class="icon-29-0 fill-none stroke-gray-400" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M17.8,73.8H1v36c0,5,4.1,9.1,9.1,9.1h36v-16.7c-1.6,1.8-4,3-6.6,3c-4.9,0-8.8-3.9-8.8-8.8s3.9-8.8,8.8-8.8   c2.6,0,5,1.1,6.6,3V73.8H29.5"></path>
+	<path class="icon-29-0 fill-none stroke-gray-400" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M46.2,102.3V119h36c5,0,9.1-4.1,9.1-9.1v-36H74.6c1.8,1.6,3,4,3,6.6c0,4.9-3.9,8.8-8.8,8.8s-8.8-3.9-8.8-8.8   c0-2.6,1.1-5,3-6.6H46.2v16.7"></path>
+	<path class="icon-29-1 fill-gray-400" opacity=".5" d="M105.9,16.1c-1.4-4.8-6.5-7.6-11.3-6.2L60,19.8l4.6,16.1c1-2.2,3-3.9,5.5-4.7c4.7-1.4,9.6,1.3,10.9,6   c1.4,4.7-1.3,9.6-6,10.9c-2.5,0.7-5.1,0.3-7.1-1l4.6,16.1l15.7-4.5c-1.1,2-1.5,4.4-0.8,6.8c1.4,4.7,6.3,7.5,11.1,6.1   c4.7-1.4,7.5-6.3,6.1-11.1c-0.7-2.4-2.3-4.3-4.3-5.4l15.6-4.5L105.9,16.1z"></path>
+	<path class="icon-29-2 fill-primary" d="M110,6.6c-1.4-4.8-6.5-7.6-11.3-6.2l-34.6,10l4.6,16.1c1-2.2,3-3.9,5.5-4.7c4.7-1.4,9.6,1.3,10.9,6   c1.4,4.7-1.3,9.6-6,10.9c-2.5,0.7-5.1,0.3-7.1-1l4.6,16.1l15.7-4.5c-1.1,2-1.5,4.4-0.8,6.8c1.4,4.7,6.3,7.5,11.1,6.1   c4.7-1.4,7.5-6.3,6.1-11.1c-0.7-2.4-2.3-4.3-4.3-5.4l15.6-4.5L110,6.6z"></path>
+</g>
+</svg>
+<div class="media-body">
+<span class="u-header__promo-title">Product Feed</span>
+<small class="u-header__promo-text">Sell multichannel such as Google Shopping, Amazon, eBay, Bing, and Facebook</small>
+</div>
+</div>
+</a>
+</div>
+
+</div>
+</div>
+</div>
+
+</li>
+
+<li class="nav-item u-header__nav-item">
+<a class="nav-link u-header__nav-link" href="https://www.mageplaza.com/deals/" target="_blank" rel="nofollow">Deals</a>
+</li>
+
+<li class="nav-item hs-has-mega-menu u-header__nav-item" data-event="hover" data-animation-in="slideInUp" data-animation-out="fadeOut" data-position="left">
+<a id="homeMegaMenu" class="nav-link u-header__nav-link u-header__nav-link-toggle" href="https://www.mageplaza.com/magento-2-extensions/" aria-haspopup="true" aria-expanded="false">Magento® 2
+<span class="badge badge-primary menu-badge-pos mp-bg-blue">245</span>
+</a>
+
+<div class="hs-mega-menu w-100 u-header__sub-menu" aria-labelledby="homeMegaMenu" style="display: none;">
+<div class="row no-gutters">
+<div class="col-lg-12">
+<div class="row u-header__mega-menu-wrapper">
+<div class="col-sm-3 mb-6 mb-sm-0">
+<span class="u-header__sub-menu-title"><a href="https://www.mageplaza.com/magento-2-extensions/sales-motivation.html">Sales Motivation</a></span>
+<ul class="u-header__sub-menu-nav-group mb-3">
+<li><a class="nav-link u-header__sub-menu-nav-link" href="https://avada.io/platform/magento/?utm_source=mageplaza.com&amp;utm_campaign=menu-item&amp;utm_content=sales-motivation-menu">Marketing Automation</a></li>
+<li><a class="nav-link u-header__sub-menu-nav-link" href="https://www.mageplaza.com/magento-2-affiliate-extension/">Affiliate</a></li>
+<li><a class="nav-link u-header__sub-menu-nav-link" href="https://www.mageplaza.com/magento-2-reward-points-extension/">Reward Points <span class="badge badge-warning badge-pill ml-1 text-white">Hot</span></a> </li>
+<li><a class="nav-link u-header__sub-menu-nav-link" href="https://www.mageplaza.com/magento-2-abandoned-cart-email/">Abandoned Cart Email</a></li>
+
+<li><a class="nav-link u-header__sub-menu-nav-link" href="https://www.mageplaza.com/magento-2-automatic-related-products/">Auto Related Products</a></li>
+<li><a class="nav-link u-header__sub-menu-nav-link" href="https://www.mageplaza.com/magento-2-frequently-bought-together/">Frequently Bought Together</a></li>
+</ul>
+<span class="u-header__sub-menu-title"><a href="https://www.mageplaza.com/magento-2-extensions/b2b.html">B2B</a></span>
+<ul class="u-header__sub-menu-nav-group mb-3">
+<li><a class="nav-link u-header__sub-menu-nav-link" href="https://www.mageplaza.com/magento-2-quick-order/">Quick Order <span class="badge badge-warning badge-pill ml-1 text-white">Hot</span></a></li>
+<li><a class="nav-link u-header__sub-menu-nav-link" href="https://www.mageplaza.com/magento-2-call-for-price/">Call for Price</a> </li>
+<li><a class="nav-link u-header__sub-menu-nav-link" href="https://www.mageplaza.com/magento-2-required-login/">Required Login</a></li>
+<li><a class="nav-link u-header__sub-menu-nav-link" href="https://www.mageplaza.com/magento-2-better-change-qty/">Better Change Qty</a> </li>
+<li><a class="nav-link u-header__sub-menu-nav-link" href="https://www.mageplaza.com/magento-2-share-cart/">Share Cart</a> </li>
+</ul>
+</div>
+
+<div class="col-sm-3">
+<span class="u-header__sub-menu-title"><a href="https://www.mageplaza.com/magento-2-extensions/checkout.html">Checkout</a></span>
+<ul class="u-header__sub-menu-nav-group mb-3">
+<li><a class="nav-link u-header__sub-menu-nav-link" href="https://www.mageplaza.com/magento-2-one-step-checkout-extension/">One Step Checkout <span class="badge badge-warning badge-pill ml-1 text-white">Hot</span></a> </li>
+<li><a class="nav-link u-header__sub-menu-nav-link" href="https://www.mageplaza.com/magento-2-ajax-cart-extension/">AJAX Cart</a> </li>
+<li><a class="nav-link u-header__sub-menu-nav-link" href="https://www.mageplaza.com/magento-2-extra-fee/">Extra Fee <span class="badge badge-success badge-pill ml-1 text-white">New</span></a></li>
+<li><a class="nav-link u-header__sub-menu-nav-link" href="https://www.mageplaza.com/magento-2-custom-checkout-fields/">Custom Checkout Fields</a> </li>
+<li><a class="nav-link u-header__sub-menu-nav-link" href="https://www.mageplaza.com/magento-2-thank-you-page/">Thank You Page</a> </li>
+</ul>
+<span class="u-header__sub-menu-title"><a href="https://www.mageplaza.com/magento-2-extensions/navigation.html">Navigation &amp; Search</a></span>
+<ul class="u-header__sub-menu-nav-group mb-3">
+<li><a class="nav-link u-header__sub-menu-nav-link" href="https://www.mageplaza.com/magento-2-layered-navigation-extension/">Layered Navigation <span class="badge badge-warning badge-pill ml-1 text-white">Hot</span></a> </li>
+<li><a class="nav-link u-header__sub-menu-nav-link" href="https://www.mageplaza.com/magento-2-quick-view/">Quick View</a> </li>
+<li><a class="nav-link u-header__sub-menu-nav-link" href="https://www.mageplaza.com/magento-2-better-sorting/">Better Sorting <span class="badge badge-success badge-pill ml-1 text-white">New</span></a></li>
+<li><a class="nav-link u-header__sub-menu-nav-link" href="https://www.mageplaza.com/magento-2-size-chart/">Size Chart</a> </li>
+<li><a class="nav-link u-header__sub-menu-nav-link" href="https://www.mageplaza.com/magento-2-product-labels/">Product Labels</a> </li>
+</ul>
+</div>
+
+
+<div class="col-sm-3">
+<span class="u-header__sub-menu-title"><a href="https://www.mageplaza.com/magento-2-extensions/user-experience.html">User Experience</a></span>
+<ul class="u-header__sub-menu-nav-group mb-3">
+<li><a class="nav-link u-header__sub-menu-nav-link" href="https://www.mageplaza.com/magento-2-customer-attributes/">Customer Attributes <span class="badge badge-warning badge-pill ml-1 text-white">Hot</span></a> </li>
+
+<li><a class="nav-link u-header__sub-menu-nav-link" href="https://www.mageplaza.com/magento-2-store-locator-extension/">Store Locator</a> </li>
+<li><a class="nav-link u-header__sub-menu-nav-link" href="https://www.mageplaza.com/magento-2-size-chart/">Size Chart <span class="badge badge-success badge-pill ml-1 text-white">New</span></a> </li>
+<li><a class="nav-link u-header__sub-menu-nav-link" href="https://www.mageplaza.com/magento-2-better-product-reviews/">Product Reviews</a> </li>
+<li><a class="nav-link u-header__sub-menu-nav-link" href="https://www.mageplaza.com/magento-2-social-login-extension/">Social Login <span class="badge badge-warning badge-pill ml-1 text-white">Hot</span></a> </li>
+</ul>
+<span class="u-header__sub-menu-title"><a href="https://www.mageplaza.com/magento-2-extensions/administration.html">Administration</a></span>
+<ul class="u-header__sub-menu-nav-group mb-3">
+<li><a class="nav-link u-header__sub-menu-nav-link" href="https://www.mageplaza.com/magento-2-pdf-invoice-extension/">PDF Invoice <span class="badge badge-warning badge-pill ml-1 text-white">Hot</span></a></li>
+<li><a class="nav-link u-header__sub-menu-nav-link" href="https://www.mageplaza.com/magento-2-reports-extension/">Better Reports</a> </li>
+<li><a class="nav-link u-header__sub-menu-nav-link" href="https://www.mageplaza.com/magento-2-security/">Security</a></li>
+<li><a class="nav-link u-header__sub-menu-nav-link" href="https://www.mageplaza.com/magento-2-seo-extension/">SEO Ultimate <span class="badge badge-warning badge-pill ml-1 text-white">Hot</span></a></li>
+<li><a class="nav-link u-header__sub-menu-nav-link" href="https://www.mageplaza.com/magento-2-mass-product-actions/">Mass Product Actions</a> </li>
+</ul>
+</div>
+
+
+<div class="col-sm-3">
+<span class="u-header__sub-menu-title"><a href="https://www.mageplaza.com/magento-2-extensions/shipping-payment.html">Shipping &amp; Fee</a></span>
+<ul class="u-header__sub-menu-nav-group mb-3">
+<li><a class="nav-link u-header__sub-menu-nav-link" href="https://www.mageplaza.com/magento-2-free-shipping-bar/">Free Shipping Bar <span class="badge badge-warning badge-pill ml-1 text-white">Hot</span></a> </li>
+<li><a class="nav-link u-header__sub-menu-nav-link" href="https://www.mageplaza.com/magento-2-shipping-rules/">Shipping Rules <span class="badge badge-success badge-pill ml-1 text-white">New</span></a></li>
+<li><a class="nav-link u-header__sub-menu-nav-link" href="https://www.mageplaza.com/magento-2-shipping-restrictions/">Shipping Restrictions</a></li>
+<li><a class="nav-link u-header__sub-menu-nav-link" href="https://www.mageplaza.com/magento-2-payment-restriction/">Payment Restrictions</a></li>
+<li><a class="nav-link u-header__sub-menu-nav-link" href="https://www.mageplaza.com/magento-2-multi-flat-rates-shipping/">Multiple Flat Rates Shipping</a></li>
+</ul>
+<span class="u-header__sub-menu-title"><a href="https://www.mageplaza.com/magento-2-extensions/order-management.html">Order Management</a></span>
+<ul class="u-header__sub-menu-nav-group mb-3">
+<li><a class="nav-link u-header__sub-menu-nav-link" href="https://www.mageplaza.com/magento-2-order-export/">Order Export</a></li>
+<li><a class="nav-link u-header__sub-menu-nav-link" href="https://www.mageplaza.com/magento-2-mass-order-actions/">Mass Order Actions</a></li>
+<li><a class="nav-link u-header__sub-menu-nav-link" href="https://www.mageplaza.com/magento-2-custom-order-number/">Custom Order Number</a></li>
+<li><a class="nav-link u-header__sub-menu-nav-link" href="https://www.mageplaza.com/magento-2-order-attributes/">Order Attributes</a></li>
+<li><a class="nav-link u-header__sub-menu-nav-link" href="https://www.mageplaza.com/magento-2-order-archive/">Order Archive</a></li>
+</ul>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+
+</li>
+
+
+<li class="nav-item hs-has-mega-menu u-header__nav-item" data-event="hover" data-animation-in="slideInUp" data-animation-out="fadeOut" data-max-width="600px" data-position="right">
+<a id="homeMegaMenu-Free-Extensions" class="nav-link u-header__nav-link u-header__nav-link-toggle" href="https://www.mageplaza.com/magento-2-free-extensions/" aria-haspopup="true" aria-expanded="false">Free</a>
+
+<div class="hs-mega-menu w-100 u-header__sub-menu" aria-labelledby="homeMegaMenu-Free-Extensions" style="display: none;">
+<div class="row no-gutters">
+<div class="col-lg-12">
+<div class="row u-header__mega-menu-wrapper">
+<div class="col-sm-6 mb-6 mb-sm-0">
+<span class="u-header__sub-menu-title">Best Sellers</span>
+<ul class="u-header__sub-menu-nav-group mb-6">
+<li><a class="nav-link u-header__sub-menu-nav-link" href="https://www.mageplaza.com/magento-2-smtp/">SMTP</a></li>
+<li><a class="nav-link u-header__sub-menu-nav-link" href="https://www.mageplaza.com/magento-2-social-login-extension/">Social Login</a></li>
+<li><a class="nav-link u-header__sub-menu-nav-link" href="https://www.mageplaza.com/magento-2-better-blog/">Blog</a></li>
+<li><a class="nav-link u-header__sub-menu-nav-link" href="https://www.mageplaza.com/magento-2-security/">Security</a></li>
+<li><a class="nav-link u-header__sub-menu-nav-link" href="https://www.mageplaza.com/magento-2-newsletter-popup/">Newsletter Popup</a></li>
+<li><a class="nav-link u-header__sub-menu-nav-link" href="https://www.mageplaza.com/magento-2-better-popup/">Better Popup</a></li>
+</ul>
+</div>
+<div class="col-sm-6 mb-6 mb-sm-0">
+<span class="u-header__sub-menu-title">Best Sellers</span>
+<ul class="u-header__sub-menu-nav-group mb-6">
+<li><a class="nav-link u-header__sub-menu-nav-link" href="https://www.mageplaza.com/magento-2-multi-flat-rates-shipping/">Multiple Flat Rate</a></li>
+<li><a class="nav-link u-header__sub-menu-nav-link" href="https://www.mageplaza.com/magento-2-ajax-layered-navigation/">AJAX Layered Navigation</a></li>
+<li><a class="nav-link u-header__sub-menu-nav-link" href="https://www.mageplaza.com/magento-2-backend-reindex/">Backend Reindex</a></li>
+<li><a class="nav-link u-header__sub-menu-nav-link" href="https://www.mageplaza.com/magento-2-email-attachments/">Email Attachments</a></li>
+<li><a class="nav-link u-header__sub-menu-nav-link" href="https://www.mageplaza.com/magento-2-facebook-plugin/">Facebook Plugin</a></li>
+<li><a class="nav-link u-header__sub-menu-nav-link" href="https://www.mageplaza.com/magento-2-backend-reindex/">Backend Reindex</a></li>
+<li><a class="nav-link u-header__sub-menu-nav-link" href="https://www.mageplaza.com/magento-2-login-as-customer/">Login as Customer</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</li>
+
+
+<li class="nav-item hs-has-mega-menu u-header__nav-item" data-event="hover" data-animation-in="slideInUp" data-animation-out="fadeOut" data-max-width="350px" data-position="right">
+<a id="homeMegaMenu-Services" class="nav-link u-header__nav-link u-header__nav-link-toggle" href="https://www.mageplaza.com/magento-2-services/" aria-haspopup="true" aria-expanded="false">Services</a>
+
+<div class="hs-mega-menu w-100 u-header__sub-menu" aria-labelledby="homeMegaMenu-Services" style="display: none;">
+<div class="m-2">
+<div class="col-sm-12 mb-sm-0">
+<ul class="u-header__sub-menu-nav-group">
+<li><a class="nav-link u-header__sub-menu-nav-link" href="https://www.mageplaza.com/magento-2-hire-developer/">Hire Magento Developers</a></li>
+<li><a class="nav-link u-header__sub-menu-nav-link" href="https://www.mageplaza.com/magento-2-performance-optimization-services/">Magento Performance Optimization</a></li>
+<li><a class="nav-link u-header__sub-menu-nav-link" href="https://www.mageplaza.com/magento-2-create-online-store/">Create an online store</a></li>
+<li><a class="nav-link u-header__sub-menu-nav-link" href="https://www.mageplaza.com/magento-development-services/">Magento Development</a></li>
+<li><a class="nav-link u-header__sub-menu-nav-link" href="https://www.mageplaza.com/magento-2-customization-service/">Extension Customization</a></li>
+<li><a class="nav-link u-header__sub-menu-nav-link" href="https://www.mageplaza.com/magento-1-to-magento-2-migration/">Magento 2 Data Migration</a></li>
+<li><a class="nav-link u-header__sub-menu-nav-link" href="https://www.mageplaza.com/magento-2-find-solution/">Magento Solution Finder</a></li>
+<li><a class="nav-link u-header__sub-menu-nav-link" href="https://www.mageplaza.com/magento-2-seo-services/">Magento SEO Services</a></li>
+<li><a class="nav-link u-header__sub-menu-nav-link" href="https://www.mageplaza.com/magento-2-support-maintenance-services/">Magento Support &amp; Maintenance</a></li>
+</ul>
+</div>
+</div>
+</div>
+
+</li>
+
+
+<li class="nav-item hs-has-mega-menu u-header__nav-item" data-event="hover" data-animation-in="slideInUp" data-animation-out="fadeOut" data-max-width="600px" data-position="right">
+<a id="homeMegaMenu-Resource" class="nav-link u-header__nav-link u-header__nav-link-toggle" href="javascript:;" aria-haspopup="true" aria-expanded="false">Resources</a>
+
+<div class="hs-mega-menu w-100 u-header__sub-menu" aria-labelledby="homeMegaMenu-Resource" style="display: none;">
+<div class="row no-gutters">
+<div class="col-lg-12">
+<div class="row u-header__mega-menu-wrapper">
+<div class="col-sm-6 mb-6 mb-sm-0">
+<span class="u-header__sub-menu-title">Help</span>
+<ul class="u-header__sub-menu-nav-group mb-6">
+<li><a class="nav-link u-header__sub-menu-nav-link" href="https://docs.mageplaza.com/" target="_blank" rel="nofollow">User Guide</a></li>
+<li><a class="nav-link u-header__sub-menu-nav-link" href="https://www.mageplaza.com/install-magento-2-extension/" target="_blank">Installation Guide</a></li>
+<li><a class="nav-link u-header__sub-menu-nav-link" href="https://www.mageplaza.com/magento-2-installation-service/" target="_blank">Installation Service</a></li>
+<li><a class="nav-link u-header__sub-menu-nav-link" href="https://www.mageplaza.com/magento-2-customization-service/" target="_blank">Customization Service</a></li>
+<li><a class="nav-link u-header__sub-menu-nav-link" href="https://www.mageplaza.com/faqs/" target="_blank">FAQs</a></li>
+<li><a class="nav-link u-header__sub-menu-nav-link" href="https://www.mageplaza.com/contact.html" target="_blank" rel="nofollow">Help Desk</a></li>
+</ul>
+</div>
+<div class="col-sm-6 mb-6 mb-sm-0">
+<span class="u-header__sub-menu-title">Quick link</span>
+<ul class="u-header__sub-menu-nav-group mb-6">
+<li><a class="nav-link u-header__sub-menu-nav-link" href="https://www.mageplaza.com/blog/">Blog</a></li>
+<li><a class="nav-link u-header__sub-menu-nav-link" href="https://www.mageplaza.com/magento-2-module-development/">For Developers</a></li>
+<li><a class="nav-link u-header__sub-menu-nav-link" href="https://www.mageplaza.com/kb/magento-2-tutorial/">For Merchants</a></li>
+<li><a class="nav-link u-header__sub-menu-nav-link" href="https://www.mageplaza.com/download-magento/">Download Magento 2</a></li>
+<li><a class="nav-link u-header__sub-menu-nav-link" href="https://www.mageplaza.com/kb/magento-2-demo.html">M2 Demo</a></li>
+<li><a class="nav-link u-header__sub-menu-nav-link" href="https://www.mageplaza.com/magento-agency/">Find Agencies</a></li>
+<li><a class="nav-link u-header__sub-menu-nav-link" href="https://www.mageplaza.com/pack-builder/" target="_blank" rel="nofollow">Pack Builder</a></li>
+<li><a class="nav-link u-header__sub-menu-nav-link" href="https://www.mageplaza.com/magento-2-extensions/language-packs.html">Language Packs</a></li>
+<li><a class="nav-link u-header__sub-menu-nav-link" href="https://www.mageplaza.com/magento-2-themes/">Best Themes</a></li>
+<li><a class="nav-link u-header__sub-menu-nav-link" href="https://www.mageplaza.com/blog/magento-2-web-hosting.html">Best Hosting</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</li>
+
+
+<li class="nav-item hs-has-mega-menu u-header__nav-item" data-event="hover" data-animation-in="slideInUp" data-animation-out="fadeOut" data-max-width="260px" data-position="right">
+<a id="docsMegaMenu" class="nav-link u-header__nav-link u-header__nav-link-toggle" href="javascript:;" aria-haspopup="true" aria-expanded="false">Docs</a>
+
+<div class="hs-mega-menu u-header__sub-menu" aria-labelledby="docsMegaMenu" style="min-width: 330px; display: none;">
+
+<div class="u-header__promo-item">
+<a class="u-header__promo-link" href="https://docs.mageplaza.com/" target="_blank" rel="nofollow">
+<div class="media align-items-center">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 120 120" style="enable-background:new 0 0 120 120;" xml:space="preserve" class="injected-svg js-svg-injector u-header__promo-icon">
+<style type="text/css">
+	.icon-2-0{fill:none;stroke:#377DFF;}
+	.icon-2-1{fill:none;stroke:#BDC5D1;}
+	.icon-2-2{fill:#377DFF;}
+	.icon-2-3{fill:#BDC5D1;}
+	.icon-2-4{fill:#FFFFFF;}
+</style>
+<path class="icon-2-0 fill-none stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M99.1,113.3"></path>
+<path class="icon-2-1 fill-none stroke-gray-400" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M15.1,75.6V11l4.4-4.3l4.3,4.3l4.3-4.3l4.3,4.3l4.3-4.3l4.3,4.3l4.3-4.3l4.3,4.3l4.3-4.3l4.3,4.3l4.3-4.3  l4.3,4.3l4.3-4.3l4.3,4.3l4.3-4.3l4.3,4.3L89,6.7l4.4,4.3v96.5c0,3.2,2.6,5.8,5.8,5.8l0,0c3.2,0,5.8-2.6,5.8-5.8V13.2h-5.8v93.1"></path>
+<line class="icon-2-1 fill-none stroke-gray-400" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="99.1" y1="113.3" x2="26.1" y2="113.3"></line>
+<g opacity=".5">
+	<path class="icon-2-3 fill-gray-400" d="M78.1,44.5H39.2c-4.1,0-7.3-3.3-7.3-7.3v0c0-4.1,3.3-7.3,7.3-7.3h38.9c4.1,0,7.3,3.3,7.3,7.3v0   C85.5,41.2,82.2,44.5,78.1,44.5z"></path>
+</g>
+<g>
+	<path class="icon-2-2 fill-primary" d="M73.1,38H34.2c-4.1,0-7.3-3.3-7.3-7.3v0c0-4.1,3.3-7.3,7.3-7.3h38.9c4.1,0,7.3,3.3,7.3,7.3v0   C80.5,34.7,77.2,38,73.1,38z"></path>
+</g>
+<g>
+	<path class="icon-2-4 fill-white" d="M65.4,32.3H41.9c-0.9,0-1.6-0.7-1.6-1.6v0c0-0.9,0.7-1.6,1.6-1.6h23.5c0.9,0,1.6,0.7,1.6,1.6v0   C67,31.5,66.3,32.3,65.4,32.3z"></path>
+</g>
+<g opacity=".5">
+	<line class="icon-2-1 fill-none stroke-gray-400" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="3.8" y1="86" x2="33.1" y2="86"></line>
+	<line class="icon-2-1 fill-none stroke-gray-400" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="3.8" y1="93.5" x2="33.1" y2="93.5"></line>
+	<line class="icon-2-1 fill-none stroke-gray-400" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="3.8" y1="101.1" x2="18.3" y2="101.1"></line>
+	<line class="icon-2-1 fill-none stroke-gray-400" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="27.3" y1="101.1" x2="33.1" y2="101.1"></line>
+</g>
+<line class="icon-2-1 fill-none stroke-gray-400" opacity=".5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="54.4" y1="90.6" x2="54.4" y2="102.8"></line>
+<line class="icon-2-1 fill-none stroke-gray-400" opacity=".5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="62.3" y1="87.1" x2="62.3" y2="102.8"></line>
+<line class="icon-2-1 fill-none stroke-gray-400" opacity=".5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="70.3" y1="89.7" x2="70.3" y2="102.8"></line>
+<line class="icon-2-1 fill-none stroke-gray-400" opacity=".5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="78.3" y1="81.8" x2="78.3" y2="102.8"></line>
+<polyline class="icon-2-0 fill-none stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="50.6,86 64.2,75.6 69,81.3 80.9,71.2 "></polyline>
+</svg>
+<div class="media-body">
+<span class="u-header__promo-title">
+User Guide
+</span>
+<small class="u-header__promo-text">All Manual Guides</small>
+</div>
+</div>
+</a>
+</div>
+
+
+<div class="u-header__promo-item">
+<a class="u-header__promo-link" href="https://www.mageplaza.com/faqs/">
+<div class="media align-items-center">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 120 120" style="enable-background:new 0 0 120 120;" xml:space="preserve" class="injected-svg js-svg-injector u-header__promo-icon">
+<style type="text/css">
+	.icon-4-0{fill:none;stroke:#377DFF;}
+	.icon-4-1{fill:none;stroke:#BDC5D1;}
+	.icon-4-2{fill:none;stroke:#FFFFFF;}
+	.icon-4-3{fill:#BDC5D1;}
+	.icon-4-4{fill:#377DFF;}
+</style>
+<path class="icon-4-0 fill-none stroke-primary" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M27.8,37.1c0,1.5-1.3,2.8-2.8,2.8c-1.5,0-2.8-1.2-2.8-2.8c0-1.5,1.3-2.8,2.8-2.8C26.6,34.3,27.8,35.5,27.8,37.1  z"></path>
+<path class="icon-4-1 fill-none stroke-gray-400" opacity=".5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M41,37.1c0,1.5-1.2,2.8-2.8,2.8c-1.5,0-2.8-1.2-2.8-2.8c0-1.5,1.2-2.8,2.8-2.8C39.8,34.3,41,35.5,41,37.1z"></path>
+<path class="icon-4-1 fill-none stroke-gray-400" opacity=".5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M54.2,37.1c0,1.5-1.3,2.8-2.8,2.8c-1.5,0-2.8-1.2-2.8-2.8c0-1.5,1.3-2.8,2.8-2.8C53,34.3,54.2,35.5,54.2,37.1z"></path>
+<path class="icon-4-1 fill-none stroke-gray-400" opacity=".5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M105.8,61.7c0.8,1.4,1.4,2.9,1.9,4.5"></path>
+<path class="icon-4-1 fill-none stroke-gray-400" opacity=".5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M76.8,48c9.7-1.8,19.3,1.7,25.4,8.6"></path>
+<path class="icon-4-1 fill-none stroke-gray-400" opacity=".5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M72.2,41.2C74.6,23.3,62.6,6.4,44.6,3C26-0.6,8,11.7,4.5,30.3c-1.8,9.6,0.6,19,5.8,26.4L5.3,71.8l16.1-5.2  c3.2,1.8,6.7,3.1,10.4,3.8c5.5,1,10.9,0.7,15.9-0.8"></path>
+<path class="icon-4-3 fill-gray-400" opacity=".5" d="M74.3,50.5c18.6-3.5,36.6,8.7,40.1,27.3c1.8,9.6-0.6,19-5.8,26.4l5.1,15.1l-16.1-5.2c-3.2,1.8-6.7,3.1-10.4,3.8  c-18.6,3.5-36.6-8.7-40.1-27.3C43.4,72,55.7,54.1,74.3,50.5z"></path>
+<path class="icon-4-4 fill-primary" d="M75.4,40.4c18.6-3.5,36.6,8.7,40.1,27.3c1.8,9.6-0.6,19-5.8,26.4l5.1,15.1l-16.1-5.2c-3.2,1.8-6.7,3.1-10.4,3.8  c-18.6,3.5-36.6-8.7-40.1-27.3C44.5,61.9,56.8,44,75.4,40.4z"></path>
+<circle class="icon-4-2 fill-none stroke-white" opacity=".5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="95" cy="74.5" r="2.8"></circle>
+<circle class="icon-4-2 fill-none stroke-white" opacity=".5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="81.8" cy="74.5" r="2.8"></circle>
+<circle class="icon-4-2 fill-none stroke-white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="68.6" cy="74.5" r="2.8"></circle>
+</svg>
+<div class="media-body">
+<span class="u-header__promo-title">FAQs</span>
+<small class="u-header__promo-text">Find ready answered questions</small>
+</div>
+</div>
+</a>
+</div>
+
+<div class="u-header__promo-footer">
+
+<div class="row no-gutters">
+<div class="col-6">
+<div class="u-header__promo-footer-item">
+<small class="text-muted d-block">Check what's new</small>
+<a class="small" href="https://www.mageplaza.com/releases/" target="_blank" rel="nofollow">
+Changelog
+</a>
+</div>
+</div>
+<div class="col-6 u-header__promo-footer-ver-divider">
+<div class="u-header__promo-footer-item">
+<small class="text-muted d-block">Have a question?</small>
+<a class="small" onclick="openLiveChat();" href="javascript:void(0)">
+Contact us
+</a>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+</li>
+
+</ul>
+</div>
+
+</nav>
+
+</div>
+</div>
+</header>
+
+
+<main id="content" role="main">
+
+<div class="container">
+<div id="hits" class="mt-5 mb-5" style="display: none;"></div>
+<div id="pagination" class="mb-5" style="display: none;"></div>
+</div>
+
+
+<div id="banner-carousel" class="owl-carousel owl-loaded owl-drag">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(-2718px, 0px, 0px); transition: all 0s ease 0s; width: 6795px;"><div class="owl-item cloned" style="width: 1349px; margin-right: 10px;"><div class="item">
+<a href="https://www.mageplaza.com/magento-2-subscription-recurring-payments/">
+<img src="./Mageplaza_files/subscription-homepage-banner.webp" alt="magento 2 subscription">
+</a>
+</div></div><div class="owl-item cloned" style="width: 1349px; margin-right: 10px;"><div class="item">
+<a href="https://www.mageplaza.com/magento-2-subscription-recurring-payments/">
+<img src="./Mageplaza_files/subscription-homepage-banner.webp" alt="magento 2 subscription">
+</a>
+</div></div><div class="owl-item active" style="width: 1349px; margin-right: 10px;"><div class="item">
+<a href="https://www.mageplaza.com/magento-2-subscription-recurring-payments/">
+<img src="./Mageplaza_files/subscription-homepage-banner.webp" alt="magento 2 subscription">
+</a>
+</div></div><div class="owl-item cloned" style="width: 1349px; margin-right: 10px;"><div class="item">
+<a href="https://www.mageplaza.com/magento-2-subscription-recurring-payments/">
+<img src="./Mageplaza_files/subscription-homepage-banner.webp" alt="magento 2 subscription">
+</a>
+</div></div><div class="owl-item cloned" style="width: 1349px; margin-right: 10px;"><div class="item">
+<a href="https://www.mageplaza.com/magento-2-subscription-recurring-payments/">
+<img src="./Mageplaza_files/subscription-homepage-banner.webp" alt="magento 2 subscription">
+</a>
+</div></div></div></div><div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev"><span aria-label="Previous">‹</span></button><button type="button" role="presentation" class="owl-next"><span aria-label="Next">›</span></button></div><div class="owl-dots disabled"><button role="button" class="owl-dot active"><span></span></button></div></div>
+
+
+
+
+<div class="container">
+
+<div class="section mt-8 mb-6">
+
+<div class="row">
+<div class="col-sm-12 text-center">
+<h1 class="light header">MOST POPULAR EXTENSION BUILDER FOR MAGENTO 2</h1>
+<p class="col-sm-12 mx-auto caption mt-4">A dedicated leading extension builder for Magento 2 where you can find 231+ e-commerce solutions
+<br>for every online store with great support and officially qualified module quality
+</p>
+</div>
+</div>
+
+
+<div class="container space-2">
+<div class="row">
+<div class="col-sm-6 col-lg-3 mb-7 mb-lg-4">
+<div class="u-stats-progress position-relative d-flex align-items-center justify-content-center">
+
+<div class="js-pie text-center" data-circles-text-class="u-stats-progress__info" data-circles-value="245" data-circles-max-value="245" data-circles-bg-color="#f8fafd" data-circles-fg-color="#00c9a7" data-circles-fg-stroke-linecap="round" data-circles-fg-stroke-miterlimit="10" data-circles-radius="100" data-circles-stroke-width="8" data-circles-additional-text="+" data-circles-duration="2000" data-circles-scroll-animate="true" data-circles-color="#00c9a7" data-circles-font-size="40" data-circles-font-weight="500" data-circles-secondary-text="Extensions" data-circles-secondary-color="#77838f" data-circles-secondary-font-size="13" data-circles-secondary-font-weight="400" data-circles-divider-space="10" id="hs-pie-1"><div class="u-circles-wrap" style="position: relative; display: inline-block;"><svg xmlns="http://www.w3.org/2000/svg" width="200" height="200"><path fill="transparent" stroke="#f8fafd" stroke-width="8" d="M 99.98044737244527 4.000001991173164 A 96 96 0 1 1 99.86665792594512 4.000092604777535 Z" class="u-circles-maxValueStroke"></path><path fill="transparent" stroke="#00c9a7" stroke-width="8" d="M 99.98044737244527 4.000001991173164 A 96 96 0 1 1 99.86665792594512 4.000092604777535 " class="u-circles-valueStroke" stroke-linecap="round" stroke-miterlimit="10"></path></svg><div class="u-stats-progress__info" style="position: absolute; text-align: center; width: 100%; font-size: 40px; height: auto; line-height: normal; font-weight: 500; color: rgb(0, 201, 167);">245+<div style="margin-top: 5px; margin-bottom: 5px;"></div><div style="font-weight: 400; font-size: 13px; color: #77838f;">Extensions</div></div></div></div>
+
+</div>
+</div>
+<div class="col-sm-6 col-lg-3 mb-7 mb-lg-4">
+<div class="u-stats-progress position-relative d-flex align-items-center justify-content-center">
+
+<div class="js-pie text-center" data-circles-text-class="u-stats-progress__info" data-circles-value="7" data-circles-max-value="7" data-circles-bg-color="#f8fafd" data-circles-fg-color="#de4437" data-circles-fg-stroke-linecap="round" data-circles-fg-stroke-miterlimit="10" data-circles-radius="100" data-circles-stroke-width="8" data-circles-additional-text="m+" data-circles-duration="2000" data-circles-scroll-animate="true" data-circles-color="#de4437" data-circles-font-size="40" data-circles-font-weight="500" data-circles-secondary-text="Downloads" data-circles-secondary-color="#77838f" data-circles-secondary-font-size="13" data-circles-secondary-font-weight="400" data-circles-divider-space="10" id="hs-pie-2"><div class="u-circles-wrap" style="position: relative; display: inline-block;"><svg xmlns="http://www.w3.org/2000/svg" width="200" height="200"><path fill="transparent" stroke="#f8fafd" stroke-width="8" d="M 99.98044737244527 4.000001991173164 A 96 96 0 1 1 99.86665792594512 4.000092604777535 Z" class="u-circles-maxValueStroke"></path><path fill="transparent" stroke="#de4437" stroke-width="8" d="M 99.98044737244527 4.000001991173164 A 96 96 0 1 1 99.86665792594512 4.000092604777535 " class="u-circles-valueStroke" stroke-linecap="round" stroke-miterlimit="10"></path></svg><div class="u-stats-progress__info" style="position: absolute; text-align: center; width: 100%; font-size: 40px; height: auto; line-height: normal; font-weight: 500; color: rgb(222, 68, 55);">7m+<div style="margin-top: 5px; margin-bottom: 5px;"></div><div style="font-weight: 400; font-size: 13px; color: #77838f;">Downloads</div></div></div></div>
+
+</div>
+</div>
+<div class="col-sm-6 col-lg-3 mb-7 mb-lg-4">
+<div class="u-stats-progress position-relative d-flex align-items-center justify-content-center">
+
+<div class="js-pie text-center" data-circles-text-class="u-stats-progress__info" data-circles-value="94" data-circles-max-value="114" data-circles-bg-color="#f8fafd" data-circles-fg-color="#377dff" data-circles-fg-stroke-linecap="round" data-circles-fg-stroke-miterlimit="10" data-circles-radius="100" data-circles-stroke-width="8" data-circles-additional-text="k+" data-circles-duration="2000" data-circles-scroll-animate="true" data-circles-color="#377dff" data-circles-font-size="40" data-circles-font-weight="500" data-circles-secondary-text="Global Customers" data-circles-secondary-color="#77838f" data-circles-secondary-font-size="13" data-circles-secondary-font-weight="400" data-circles-divider-space="10" id="hs-pie-3"><div class="u-circles-wrap" style="position: relative; display: inline-block;"><svg xmlns="http://www.w3.org/2000/svg" width="200" height="200"><path fill="transparent" stroke="#f8fafd" stroke-width="8" d="M 99.98044737244527 4.000001991173164 A 96 96 0 1 1 99.86665792594512 4.000092604777535 Z" class="u-circles-maxValueStroke"></path><path fill="transparent" stroke="#377dff" stroke-width="8" d="M 99.98044737244527 4.000001991173164 A 96 96 0 1 1 14.297011106579333 56.74496913959933 " class="u-circles-valueStroke" stroke-linecap="round" stroke-miterlimit="10"></path></svg><div class="u-stats-progress__info" style="position: absolute; text-align: center; width: 100%; font-size: 40px; height: auto; line-height: normal; font-weight: 500; color: rgb(55, 125, 255);">94k+<div style="margin-top: 5px; margin-bottom: 5px;"></div><div style="font-weight: 400; font-size: 13px; color: #77838f;">Global Customers</div></div></div></div>
+
+</div>
+</div>
+<div class="col-sm-6 col-lg-3 mb-7 mb-lg-4">
+<div class="u-stats-progress position-relative d-flex align-items-center justify-content-center">
+
+<div class="js-pie text-center" data-circles-text-class="u-stats-progress__info" data-circles-value="176" data-circles-max-value="200" data-circles-bg-color="#f8fafd" data-circles-fg-color="#ffc107" data-circles-fg-stroke-linecap="round" data-circles-fg-stroke-miterlimit="10" data-circles-radius="100" data-circles-stroke-width="8" data-circles-additional-text="+" data-circles-duration="2000" data-circles-scroll-animate="true" data-circles-color="#ffc107" data-circles-font-size="40" data-circles-font-weight="500" data-circles-secondary-text="Countries" data-circles-secondary-color="#77838f" data-circles-secondary-font-size="13" data-circles-secondary-font-weight="400" data-circles-divider-space="10" id="hs-pie-4"><div class="u-circles-wrap" style="position: relative; display: inline-block;"><svg xmlns="http://www.w3.org/2000/svg" width="200" height="200"><path fill="transparent" stroke="#f8fafd" stroke-width="8" d="M 99.98044737244527 4.000001991173164 A 96 96 0 1 1 99.86665792594512 4.000092604777535 Z" class="u-circles-maxValueStroke"></path><path fill="transparent" stroke="#ffc107" stroke-width="8" d="M 99.98044737244527 4.000001991173164 A 96 96 0 1 1 34.185097585476825 30.111527272612463 " class="u-circles-valueStroke" stroke-linecap="round" stroke-miterlimit="10"></path></svg><div class="u-stats-progress__info" style="position: absolute; text-align: center; width: 100%; font-size: 40px; height: auto; line-height: normal; font-weight: 500; color: rgb(255, 193, 7);">176+<div style="margin-top: 5px; margin-bottom: 5px;"></div><div style="font-weight: 400; font-size: 13px; color: #77838f;">Countries</div></div></div></div>
+
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="row">
+<div class="col-sm-12">
+<h2 class="light header center mb-8">MAGEPLAZA STANDS OUT FOR</h2>
+</div>
+<div class="col-sm-12 col-md-3">
+<div class="text-center promo">
+<span class="btn btn-icon btn-lg btn-soft-primary rounded-circle mb-5">
+<i class="fas fa-clock"></i>
+</span>
+<p class="promo-caption">60-day Money Back</p>
+</div>
+</div>
+<div class="col-sm-12 col-md-3">
+<div class="text-center promo">
+<span class="btn btn-icon btn-lg btn-soft-primary rounded-circle mb-5">
+<i class="fas fa-check"></i>
+</span>
+<p class="promo-caption">Frequent Updates</p>
+</div>
+</div>
+<div class="col-sm-12 col-md-3">
+<div class="text-center promo">
+<span class="btn btn-icon btn-lg btn-soft-primary rounded-circle mb-5">
+<i class="fas fa-thumbs-up"></i>
+</span>
+<p class="promo-caption">365-day Free Support</p>
+</div>
+</div>
+<div class="col-sm-12 col-md-3">
+<div class="text-center promo">
+<span class="btn btn-icon btn-lg btn-soft-primary rounded-circle mb-5">
+<i class="fas fa-cogs"></i>
+</span>
+<p class="promo-caption">Composer Installation</p>
+</div>
+</div>
+</div>
+
+<hr>
+
+<div class="mp-brand mt-7 justify-content-center text-center">
+<a href="https://www.mageplaza.com/our-partners/" target="_blank" class="col-sm-12 header center h2 mb-5">BRANDS WE WORK WITH</a>
+<div class="js-slick-carousel u-slick mt-5 slick-initialized slick-slider" data-autoplay="true" data-speed="5000" data-infinite="true" data-slides-show="6" data-responsive="[{
+         &quot;breakpoint&quot;: 1200,
+         &quot;settings&quot;: {
+           &quot;slidesToShow&quot;: 4
+         }
+       }, {
+         &quot;breakpoint&quot;: 992,
+         &quot;settings&quot;: {
+           &quot;slidesToShow&quot;: 4
+         }
+       }, {
+         &quot;breakpoint&quot;: 768,
+         &quot;settings&quot;: {
+           &quot;slidesToShow&quot;: 3
+         }
+       }, {
+         &quot;breakpoint&quot;: 576,
+         &quot;settings&quot;: {
+           &quot;slidesToShow&quot;: 3
+         }
+       }, {
+         &quot;breakpoint&quot;: 480,
+         &quot;settings&quot;: {
+           &quot;slidesToShow&quot;: 2
+         }
+       }]">
+<div class="slick-list draggable"><div class="slick-track" style="opacity: 1; width: 5550px; transform: translate3d(-2405px, 0px, 0px);"><div class="js-slide slick-slide slick-cloned" data-slick-index="-6" aria-hidden="true" style="width: 185px;" tabindex="-1">
+<img class="u-clients" src="./Mageplaza_files/YPToEqa.png" alt="porto">
+</div><div class="js-slide slick-slide slick-cloned" data-slick-index="-5" aria-hidden="true" style="width: 185px;" tabindex="-1">
+<img class="u-clients" src="./Mageplaza_files/VuEVX1P.png" alt="smartosc">
+</div><div class="js-slide slick-slide slick-cloned" data-slick-index="-4" aria-hidden="true" style="width: 185px;" tabindex="-1">
+<img class="u-clients" src="./Mageplaza_files/RO6Gh89.png" alt="Iconnectpos">
+</div><div class="js-slide slick-slide slick-cloned" data-slick-index="-3" aria-hidden="true" style="width: 185px;" tabindex="-1">
+<img class="u-clients" src="./Mageplaza_files/riq6iTs.png" alt="convertdigital">
+</div><div class="js-slide slick-slide slick-cloned" data-slick-index="-2" aria-hidden="true" style="width: 185px;" tabindex="-1">
+<img class="u-clients" src="./Mageplaza_files/RG5fn9S.png" alt="cowell">
+</div><div class="js-slide slick-slide slick-cloned" data-slick-index="-1" aria-hidden="true" style="width: 185px;" tabindex="-1">
+<img class="u-clients" src="./Mageplaza_files/BYsb3kE.png" alt="magenest">
+</div><div class="js-slide slick-slide" data-slick-index="0" aria-hidden="true" style="width: 185px; height: auto;" tabindex="-1">
+<img class="u-clients" src="./Mageplaza_files/KTJgZTv.png" alt="Magento">
+</div><div class="js-slide slick-slide" data-slick-index="1" aria-hidden="true" style="width: 185px; height: auto;" tabindex="-1">
+<img class="u-clients" src="./Mageplaza_files/h6U5oZp.png" alt="Paypal">
+</div><div class="js-slide slick-slide" data-slick-index="2" aria-hidden="true" style="width: 185px; height: auto;" tabindex="-1">
+<img class="u-clients" src="./Mageplaza_files/3K8l528.png" alt="Adobe">
+</div><div class="js-slide slick-slide" data-slick-index="3" aria-hidden="true" style="width: 185px; height: auto;" tabindex="-1">
+<img class="u-clients" src="./Mageplaza_files/x6WSsSh.png" alt="Braintree">
+</div><div class="js-slide slick-slide" data-slick-index="4" aria-hidden="true" style="width: 185px; height: auto;" tabindex="-1">
+<img class="u-clients" src="./Mageplaza_files/DRyldC7.png" alt="Yotpo">
+</div><div class="js-slide slick-slide" data-slick-index="5" aria-hidden="true" style="width: 185px; height: auto;" tabindex="-1">
+<img class="u-clients" src="./Mageplaza_files/yRBUQT5.png" alt="shipperhq">
+</div><div class="js-slide slick-slide" data-slick-index="6" aria-hidden="true" style="width: 185px; height: auto;" tabindex="-1">
+<img class="u-clients" src="./Mageplaza_files/YPToEqa.png" alt="porto">
+</div><div class="js-slide slick-slide slick-current slick-active" data-slick-index="7" aria-hidden="false" style="width: 185px; height: auto;" tabindex="0">
+<img class="u-clients" src="./Mageplaza_files/VuEVX1P.png" alt="smartosc">
+</div><div class="js-slide slick-slide slick-active" data-slick-index="8" aria-hidden="false" style="width: 185px; height: auto;" tabindex="0">
+<img class="u-clients" src="./Mageplaza_files/RO6Gh89.png" alt="Iconnectpos">
+</div><div class="js-slide slick-slide slick-active" data-slick-index="9" aria-hidden="false" style="width: 185px; height: auto;" tabindex="0">
+<img class="u-clients" src="./Mageplaza_files/riq6iTs.png" alt="convertdigital">
+</div><div class="js-slide slick-slide slick-active" data-slick-index="10" aria-hidden="false" style="width: 185px; height: auto;" tabindex="0">
+<img class="u-clients" src="./Mageplaza_files/RG5fn9S.png" alt="cowell">
+</div><div class="js-slide slick-slide slick-active" data-slick-index="11" aria-hidden="false" style="width: 185px; height: auto;" tabindex="0">
+<img class="u-clients" src="./Mageplaza_files/BYsb3kE.png" alt="magenest">
+</div><div class="js-slide slick-slide slick-cloned slick-active" data-slick-index="12" aria-hidden="false" style="width: 185px;" tabindex="-1">
+<img class="u-clients" src="./Mageplaza_files/KTJgZTv.png" alt="Magento">
+</div><div class="js-slide slick-slide slick-cloned" data-slick-index="13" aria-hidden="true" style="width: 185px;" tabindex="-1">
+<img class="u-clients" src="./Mageplaza_files/h6U5oZp.png" alt="Paypal">
+</div><div class="js-slide slick-slide slick-cloned" data-slick-index="14" aria-hidden="true" style="width: 185px;" tabindex="-1">
+<img class="u-clients" src="./Mageplaza_files/3K8l528.png" alt="Adobe">
+</div><div class="js-slide slick-slide slick-cloned" data-slick-index="15" aria-hidden="true" style="width: 185px;" tabindex="-1">
+<img class="u-clients" src="./Mageplaza_files/x6WSsSh.png" alt="Braintree">
+</div><div class="js-slide slick-slide slick-cloned" data-slick-index="16" aria-hidden="true" style="width: 185px;" tabindex="-1">
+<img class="u-clients" src="./Mageplaza_files/DRyldC7.png" alt="Yotpo">
+</div><div class="js-slide slick-slide slick-cloned" data-slick-index="17" aria-hidden="true" style="width: 185px;" tabindex="-1">
+<img class="u-clients" src="./Mageplaza_files/yRBUQT5.png" alt="shipperhq">
+</div><div class="js-slide slick-slide slick-cloned" data-slick-index="18" aria-hidden="true" style="width: 185px;" tabindex="-1">
+<img class="u-clients" src="./Mageplaza_files/YPToEqa.png" alt="porto">
+</div><div class="js-slide slick-slide slick-cloned" data-slick-index="19" aria-hidden="true" style="width: 185px;" tabindex="-1">
+<img class="u-clients" src="./Mageplaza_files/VuEVX1P.png" alt="smartosc">
+</div><div class="js-slide slick-slide slick-cloned" data-slick-index="20" aria-hidden="true" style="width: 185px;" tabindex="-1">
+<img class="u-clients" src="./Mageplaza_files/RO6Gh89.png" alt="Iconnectpos">
+</div><div class="js-slide slick-slide slick-cloned" data-slick-index="21" aria-hidden="true" style="width: 185px;" tabindex="-1">
+<img class="u-clients" src="./Mageplaza_files/riq6iTs.png" alt="convertdigital">
+</div><div class="js-slide slick-slide slick-cloned" data-slick-index="22" aria-hidden="true" style="width: 185px;" tabindex="-1">
+<img class="u-clients" src="./Mageplaza_files/RG5fn9S.png" alt="cowell">
+</div><div class="js-slide slick-slide slick-cloned" data-slick-index="23" aria-hidden="true" style="width: 185px;" tabindex="-1">
+<img class="u-clients" src="./Mageplaza_files/BYsb3kE.png" alt="magenest">
+</div></div></div>
+
+
+
+
+
+ 
+
+
+
+
+
+</div>
+<div class="js-slick-carousel u-slick mt-5 slick-initialized slick-slider" data-autoplay="true" data-speed="5000" data-infinite="true" data-slides-show="6" data-responsive="[{
+         &quot;breakpoint&quot;: 1200,
+         &quot;settings&quot;: {
+           &quot;slidesToShow&quot;: 4
+         }
+       }, {
+         &quot;breakpoint&quot;: 992,
+         &quot;settings&quot;: {
+           &quot;slidesToShow&quot;: 4
+         }
+       }, {
+         &quot;breakpoint&quot;: 768,
+         &quot;settings&quot;: {
+           &quot;slidesToShow&quot;: 3
+         }
+       }, {
+         &quot;breakpoint&quot;: 576,
+         &quot;settings&quot;: {
+           &quot;slidesToShow&quot;: 3
+         }
+       }, {
+         &quot;breakpoint&quot;: 480,
+         &quot;settings&quot;: {
+           &quot;slidesToShow&quot;: 2
+         }
+       }]">
+<div class="slick-list draggable"><div class="slick-track" style="opacity: 1; width: 5550px; transform: translate3d(-1295px, 0px, 0px);"><div class="js-slide slick-slide slick-cloned" data-slick-index="-6" aria-hidden="true" style="width: 185px;" tabindex="-1">
+<img class="u-clients" src="./Mageplaza_files/4ffpkzM.png" alt="Sony">
+</div><div class="js-slide slick-slide slick-cloned" data-slick-index="-5" aria-hidden="true" style="width: 185px;" tabindex="-1">
+<img class="u-clients" src="./Mageplaza_files/kNl3uf0.png" alt="Vaimo">
+</div><div class="js-slide slick-slide slick-cloned" data-slick-index="-4" aria-hidden="true" style="width: 185px;" tabindex="-1">
+<img class="u-clients" src="./Mageplaza_files/8VmjqeB.png" alt="Verizon">
+</div><div class="js-slide slick-slide slick-cloned" data-slick-index="-3" aria-hidden="true" style="width: 185px;" tabindex="-1">
+<img class="u-clients" src="./Mageplaza_files/aPHxwzr.png" alt="shipperhq">
+</div><div class="js-slide slick-slide slick-cloned" data-slick-index="-2" aria-hidden="true" style="width: 185px;" tabindex="-1">
+<img class="u-clients" src="./Mageplaza_files/sH53fNZ.png" alt="Dollskill">
+</div><div class="js-slide slick-slide slick-cloned" data-slick-index="-1" aria-hidden="true" style="width: 185px;" tabindex="-1">
+<img class="u-clients" src="./Mageplaza_files/emK7XA9.png" alt="Yotpo">
+</div><div class="js-slide slick-slide" data-slick-index="0" aria-hidden="true" style="width: 185px; height: auto;" tabindex="-1">
+<img class="u-clients" src="./Mageplaza_files/LKClK9L.png" alt="Asus">
+</div><div class="js-slide slick-slide slick-current slick-active" data-slick-index="1" aria-hidden="false" style="width: 185px; height: auto;" tabindex="0">
+<img class="u-clients" src="./Mageplaza_files/jN1rBc5.png" alt="Nestle">
+</div><div class="js-slide slick-slide slick-active" data-slick-index="2" aria-hidden="false" style="width: 185px; height: auto;" tabindex="0">
+<img class="u-clients" src="./Mageplaza_files/jM5VRVY.png" alt="Blueacorn">
+</div><div class="js-slide slick-slide slick-active" data-slick-index="3" aria-hidden="false" style="width: 185px; height: auto;" tabindex="0">
+<img class="u-clients" src="./Mageplaza_files/0JVjLM2.png" alt="Canon">
+</div><div class="js-slide slick-slide slick-active" data-slick-index="4" aria-hidden="false" style="width: 185px; height: auto;" tabindex="0">
+<img class="u-clients" src="./Mageplaza_files/rZXbdj3.png" alt="IBM">
+</div><div class="js-slide slick-slide slick-active" data-slick-index="5" aria-hidden="false" style="width: 185px; height: auto;" tabindex="0">
+<img class="u-clients" src="./Mageplaza_files/F5SxXYW.png" alt="Olympus">
+</div><div class="js-slide slick-slide slick-active" data-slick-index="6" aria-hidden="false" style="width: 185px; height: auto;" tabindex="0">
+<img class="u-clients" src="./Mageplaza_files/4ffpkzM.png" alt="Sony">
+</div><div class="js-slide slick-slide" data-slick-index="7" aria-hidden="true" style="width: 185px; height: auto;" tabindex="-1">
+<img class="u-clients" src="./Mageplaza_files/kNl3uf0.png" alt="Vaimo">
+</div><div class="js-slide slick-slide" data-slick-index="8" aria-hidden="true" style="width: 185px; height: auto;" tabindex="-1">
+<img class="u-clients" src="./Mageplaza_files/8VmjqeB.png" alt="Verizon">
+</div><div class="js-slide slick-slide" data-slick-index="9" aria-hidden="true" style="width: 185px; height: auto;" tabindex="-1">
+<img class="u-clients" src="./Mageplaza_files/aPHxwzr.png" alt="shipperhq">
+</div><div class="js-slide slick-slide" data-slick-index="10" aria-hidden="true" style="width: 185px; height: auto;" tabindex="-1">
+<img class="u-clients" src="./Mageplaza_files/sH53fNZ.png" alt="Dollskill">
+</div><div class="js-slide slick-slide" data-slick-index="11" aria-hidden="true" style="width: 185px; height: auto;" tabindex="-1">
+<img class="u-clients" src="./Mageplaza_files/emK7XA9.png" alt="Yotpo">
+</div><div class="js-slide slick-slide slick-cloned" data-slick-index="12" aria-hidden="true" style="width: 185px;" tabindex="-1">
+<img class="u-clients" src="./Mageplaza_files/LKClK9L.png" alt="Asus">
+</div><div class="js-slide slick-slide slick-cloned" data-slick-index="13" aria-hidden="true" style="width: 185px;" tabindex="-1">
+<img class="u-clients" src="./Mageplaza_files/jN1rBc5.png" alt="Nestle">
+</div><div class="js-slide slick-slide slick-cloned" data-slick-index="14" aria-hidden="true" style="width: 185px;" tabindex="-1">
+<img class="u-clients" src="./Mageplaza_files/jM5VRVY.png" alt="Blueacorn">
+</div><div class="js-slide slick-slide slick-cloned" data-slick-index="15" aria-hidden="true" style="width: 185px;" tabindex="-1">
+<img class="u-clients" src="./Mageplaza_files/0JVjLM2.png" alt="Canon">
+</div><div class="js-slide slick-slide slick-cloned" data-slick-index="16" aria-hidden="true" style="width: 185px;" tabindex="-1">
+<img class="u-clients" src="./Mageplaza_files/rZXbdj3.png" alt="IBM">
+</div><div class="js-slide slick-slide slick-cloned" data-slick-index="17" aria-hidden="true" style="width: 185px;" tabindex="-1">
+<img class="u-clients" src="./Mageplaza_files/F5SxXYW.png" alt="Olympus">
+</div><div class="js-slide slick-slide slick-cloned" data-slick-index="18" aria-hidden="true" style="width: 185px;" tabindex="-1">
+<img class="u-clients" src="./Mageplaza_files/4ffpkzM.png" alt="Sony">
+</div><div class="js-slide slick-slide slick-cloned" data-slick-index="19" aria-hidden="true" style="width: 185px;" tabindex="-1">
+<img class="u-clients" src="./Mageplaza_files/kNl3uf0.png" alt="Vaimo">
+</div><div class="js-slide slick-slide slick-cloned" data-slick-index="20" aria-hidden="true" style="width: 185px;" tabindex="-1">
+<img class="u-clients" src="./Mageplaza_files/8VmjqeB.png" alt="Verizon">
+</div><div class="js-slide slick-slide slick-cloned" data-slick-index="21" aria-hidden="true" style="width: 185px;" tabindex="-1">
+<img class="u-clients" src="./Mageplaza_files/aPHxwzr.png" alt="shipperhq">
+</div><div class="js-slide slick-slide slick-cloned" data-slick-index="22" aria-hidden="true" style="width: 185px;" tabindex="-1">
+<img class="u-clients" src="./Mageplaza_files/sH53fNZ.png" alt="Dollskill">
+</div><div class="js-slide slick-slide slick-cloned" data-slick-index="23" aria-hidden="true" style="width: 185px;" tabindex="-1">
+<img class="u-clients" src="./Mageplaza_files/emK7XA9.png" alt="Yotpo">
+</div></div></div>
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+<hr>
+
+<div class="container space-2">
+<figure class="text-center mb-5 mx-auto">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="40px" height="40px" viewBox="0 0 8 8" style="enable-background:new 0 0 8 8;" xml:space="preserve">
+<path class="fill-primary" d="M3,1.3C2,1.7,1.2,2.7,1.2,3.6c0,0.2,0,0.4,0.1,0.5c0.2-0.2,0.5-0.3,0.9-0.3c0.8,0,1.5,0.6,1.5,1.5c0,0.9-0.7,1.5-1.5,1.5
+                    C1.4,6.9,1,6.6,0.7,6.1C0.4,5.6,0.3,4.9,0.3,4.5c0-1.6,0.8-2.9,2.5-3.7L3,1.3z M7.1,1.3c-1,0.4-1.8,1.4-1.8,2.3
+                    c0,0.2,0,0.4,0.1,0.5c0.2-0.2,0.5-0.3,0.9-0.3c0.8,0,1.5,0.6,1.5,1.5c0,0.9-0.7,1.5-1.5,1.5c-0.7,0-1.1-0.3-1.4-0.8
+                    C4.4,5.6,4.4,4.9,4.4,4.5c0-1.6,0.8-2.9,2.5-3.7L7.1,1.3z"></path>
+</svg>
+</figure>
+<div id="testimonialsNavMain" class="js-slick-carousel u-slick u-slick--transform-off mb-4 slick-initialized slick-slider" data-infinite="true" data-autoplay="true" data-speed="5000" data-fade="true" data-nav-for="#testimonialsNavPagination">
+<div class="slick-list draggable"><div class="slick-track" style="opacity: 1; width: 3240px;"><div class="js-slide slick-slide slick-current slick-active" data-slick-index="0" aria-hidden="false" style="width: 1080px; position: relative; left: 0px; top: 0px; z-index: 999; opacity: 1; height: auto;" tabindex="0">
+<div class="w-md-80 w-lg-60 text-center mx-auto">
+<blockquote class="h3 mb-5">Mageplaza really sets the standard for an extension developer. Detailed installation and use guides, great pre-sales service and impeccable after-sale service...</blockquote>
+<h4 class="h6 text-muted">Linus</h4>
+</div>
+</div><div class="js-slide slick-slide" data-slick-index="1" aria-hidden="true" style="width: 1080px; position: relative; left: -1080px; top: 0px; z-index: 998; opacity: 0; height: auto; transition: opacity 500ms ease 0s;" tabindex="-1">
+<div class="w-md-80 w-lg-60 text-center mx-auto">
+<blockquote class="h3 mb-5">We've been using Mageplaza for a couple years now and their support has always been excellent... Our #1 choice when looking for Magento modules.</blockquote>
+<h4 class="h6 text-muted">iTeam Solutions</h4>
+</div>
+</div><div class="js-slide slick-slide" data-slick-index="2" aria-hidden="true" style="width: 1080px; position: relative; left: -2160px; top: 0px; z-index: 998; opacity: 0; height: auto; transition: opacity 500ms ease 0s;" tabindex="-1">
+<div class="w-md-80 w-lg-60 text-center mx-auto">
+<blockquote class="h3 mb-5">... Customer support is the best I've ever experienced, fast and helpful with most minor bugs fixed in a day or two. Would totally recommend if you are building a Magento website.</blockquote>
+<h4 class="h6 text-muted">Jason Qian</h4>
+</div>
+</div></div></div>
+
+
+</div>
+<div id="testimonialsNavPagination" class="js-slick-carousel u-slick u-slick--pagination-modern u-slick--transform-off mx-auto slick-initialized slick-slider slick-transform-off" data-infinite="true" data-autoplay="true" data-speed="5000" data-focus-on-select="true" data-center-mode="true" data-slides-show="3" data-is-thumbs="true" data-nav-for="#testimonialsNavMain">
+<div class="slick-list draggable" style="padding: 0px;"><div class="slick-track" style="opacity: 1; width: 201px; transform: translate3d(-201px, 0px, 0px);"><div class="js-slide slick-slide slick-current slick-center" data-slick-index="0" aria-hidden="true" style="width: 67px; height: auto;" tabindex="0">
+</div><div class="js-slide slick-slide" data-slick-index="1" aria-hidden="true" style="width: 67px; height: auto;" tabindex="0">
+</div><div class="js-slide slick-slide slick-center" data-slick-index="2" aria-hidden="true" style="width: 67px; height: auto;" tabindex="0">
+</div></div></div>
+
+
+</div>
+<div class="section">
+<div class="justify-content-center text-center">
+<a href="https://www.trustpilot.com/review/mageplaza.com" target="_blank"> <img src="./Mageplaza_files/trustpilot-badge.png"></a>
+</div>
+</div>
+</div>
+
+<hr>
+
+<div class="row center">
+<div class="col-sm-12">
+<h2 class="light header center mb-6">MAGEPLAZA SOLUTIONS</h2>
+</div>
+<div class="col-sm-6 col-md-3 mb-5">
+
+<div class="card border-0 shadow-soft h-100">
+<img class="card-img-top" src="./Mageplaza_files/kxePlBd.png" alt="Checkout Improvement">
+<div class="card-body p-3">
+<h6><a href="https://www.mageplaza.com/magento-2-extensions/checkout.html">Checkout Improvement</a></h6>
+<p class="mb-0 font-size-1">Optimize the checkout speed and convert more sales right at the checkout page</p>
+</div>
+<div class="card-footer bg-light border-0 py-4 px-5">
+<a href="https://www.mageplaza.com/magento-2-extensions/checkout.html" target="_blank">See More<small class="fas fa-arrow-right ml-1"></small></a>
+</div>
+</div>
+
+</div>
+<div class="col-sm-6 col-md-3 mb-5">
+
+<div class="card border-0 shadow-soft h-100">
+ <img class="card-img-top" src="./Mageplaza_files/vHH0Ezx.png" alt="Navigation &amp; Search">
+<div class="card-body p-3">
+<h6><a href="https://www.mageplaza.com/magento-2-extensions/navigation.html">Navigation &amp; Search</a></h6>
+<p class="mb-0 font-size-1">Find the desired products easily and instantly with filters and keywords matching</p>
+</div>
+<div class="card-footer bg-light border-0 py-4 px-5">
+<a href="https://www.mageplaza.com/magento-2-extensions/navigation.html" target="_blank">See More<small class="fas fa-arrow-right ml-1"></small></a>
+</div>
+</div>
+
+</div>
+<div class="col-sm-6 col-md-3 mb-5">
+
+<div class="card border-0 shadow-soft h-100">
+<img class="card-img-top" src="./Mageplaza_files/Xltmu69.png" alt="Sales Motivation">
+<div class="card-body p-3">
+<h6><a href="https://www.mageplaza.com/magento-2-extensions/sales-motivation.html">Sales Motivation</a></h6>
+<p class="mb-0 font-size-1">Motivate purchases by showing related/ up-sell/ cross-sell products and rewards</p>
+</div>
+<div class="card-footer bg-light border-0 py-4 px-5">
+<a href="https://www.mageplaza.com/magento-2-extensions/sales-motivation.html" target="_blank">See More<small class="fas fa-arrow-right ml-1"></small></a>
+</div>
+</div>
+
+</div>
+<div class="col-sm-6 col-md-3 mb-5">
+
+<div class="card border-0 shadow-soft h-100">
+<img class="card-img-top" src="./Mageplaza_files/B37hJbp.png" alt="Shipping &amp; Fee">
+<div class="card-body p-3">
+<h6><a href="https://www.mageplaza.com/magento-2-extensions/shipping-payment.html">Shipping &amp; Fee</a></h6>
+<p class="mb-0 font-size-1">Create unlimited shipping rules and shipping rates to apply for various cases.</p>
+</div>
+<div class="card-footer bg-light border-0 py-4 px-5">
+<a href="https://www.mageplaza.com/magento-2-extensions/shipping-payment.html" target="_blank">See More<small class="fas fa-arrow-right ml-1"></small></a>
+</div>
+</div>
+
+</div>
+<div class="col-sm-6 col-md-3 mb-5">
+
+<div class="card border-0 shadow-soft h-100">
+<img class="card-img-top" src="./Mageplaza_files/E2VHLyG.png" alt="Payment Gateway">
+<div class="card-body p-3">
+<h6><a href="https://www.mageplaza.com/magento-2-extensions/payment.html">Payment Gateway</a></h6>
+<p class="mb-0 font-size-1">Integrate your Magento stores with the most popular payment gateways in the world</p>
+</div>
+<div class="card-footer bg-light border-0 py-4 px-5">
+<a href="https://www.mageplaza.com/magento-2-extensions/payment.html" target="_blank">See More<small class="fas fa-arrow-right ml-1"></small></a>
+</div>
+</div>
+
+</div>
+<div class="col-sm-6 col-md-3 mb-5">
+
+<div class="card border-0 shadow-soft h-100">
+<img class="card-img-top" src="./Mageplaza_files/Tzl91hM.png" alt="User Experience">
+<div class="card-body p-3">
+<h6><a href="https://www.mageplaza.com/magento-2-extensions/user-experience.html">User Experience</a></h6>
+<p class="mb-0 font-size-1">Simplify and enhance user experience at all points of customers’ journey</p>
+</div>
+<div class="card-footer bg-light border-0 py-4 px-5">
+<a href="https://www.mageplaza.com/magento-2-extensions/user-experience.html" target="_blank">See More<small class="fas fa-arrow-right ml-1"></small></a>
+</div>
+</div>
+
+</div>
+<div class="col-sm-6 col-md-3 mb-5">
+
+<div class="card border-0 shadow-soft h-100">
+<img class="card-img-top" src="./Mageplaza_files/XusVYcD.png" alt="B2B">
+<div class="card-body p-3">
+<h6><a href="https://www.mageplaza.com/magento-2-extensions/b2b.html">B2B</a></h6>
+<p class="mb-0 font-size-1">Encourage business customers to buy more with huge benefits</p>
+</div>
+<div class="card-footer bg-light border-0 py-4 px-5">
+<a href="https://www.mageplaza.com/magento-2-extensions/b2b.html" target="_blank">See More<small class="fas fa-arrow-right ml-1"></small></a>
+</div>
+</div>
+
+</div>
+<div class="col-sm-6 col-md-3 mb-5">
+
+<div class="card border-0 shadow-soft h-100">
+<img class="card-img-top" src="./Mageplaza_files/L8jOuPh.png" alt="CRO">
+<div class="card-body p-3">
+<h6><a href="https://www.mageplaza.com/magento-2-extensions/cro.html">CRO</a></h6>
+<p class="mb-0 font-size-1">All-in-one solution to convert visitors into buyers</p>
+</div>
+<div class="card-footer bg-light border-0 py-4 px-5">
+<a href="https://www.mageplaza.com/magento-2-extensions/cro.html" target="_blank">See More<small class="fas fa-arrow-right ml-1"></small></a>
+</div>
+</div>
+
+</div>
+<div class="center mb-5 m-auto">
+<a href="https://www.mageplaza.com/magento-2-extensions/" target="_blank">More Solutions<small class="fas fa-arrow-right ml-1"></small></a>
+</div>
+</div>
+
+
+
+<div class="row mt-3">
+<div class="col-sm-12">
+<h2 class="col-sm-12 h4 header">Special Deals</h2>
+</div>
+<div class="col-sm-12 col-md-4 col-lg-3 mb-3">
+<div class="card card-frame position-relative">
+<a href="https://www.mageplaza.com/magento-2-subscription-recurring-payments/">
+<span class="badge badge-danger discounted-label position-absolute" style="right: 0;font-size: 1.2em;border-radius: 10px 0 0px 10px;z-index: 99;">
+-50%
+</span>
+<img class="card-img-top" src="./Mageplaza_files/Subscription-and-Recurring Payments-02.webp" alt="Subscription &amp; Recurring Payments">
+</a>
+<div class="card-body">
+<a href="https://www.mageplaza.com/magento-2-subscription-recurring-payments/">
+<span class="card-title grey-text text-darken-4 truncate">
+Subscription &amp; Recurring Payments
+</span>
+</a>
+<div class="card-text mt-4">
+<div class="float-left" itemscope="" itemtype="http://schema.org/AggregateOffer">
+<span class="special-price-list">$<span>199</span></span> (<span class="old-price-list">$<span>399</span></span>)
+</div>
+<span class="float-right">
+</span>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-12">
+<p class="float-right">
+<a href="https://www.mageplaza.com/deals/" class="add-to-cart btn btn-block btn-soft-primary text-white mp-bg-primary-green transition-3d-hover pt-2 pb-2">See all deals <i class="fa fa-angle-double-right"></i></a></p>
+</div>
+</div>
+<div class="divider"></div>
+
+<div class="row mt-3" id="magento-two">
+<div class="col-sm-12">
+<h2 class="col-sm-12 h4 header"><a class="header" href="https://www.mageplaza.com/magento-2-extensions/">Featured
+Extensions</a></h2>
+</div>
+<div class="col-sm-12 col-md-4 col-lg-3 mb-3">
+<div class="card card-frame position-relative">
+<a href="https://www.mageplaza.com/magento-2-one-step-checkout-extension/">
+<img class="card-img-top" src="./Mageplaza_files/magento-2-one-step-checkout.png" alt="One Step Checkout">
+</a>
+<div class="card-body">
+<a href="https://www.mageplaza.com/magento-2-one-step-checkout-extension/">
+<span class="card-title grey-text text-darken-4 truncate">
+One Step Checkout
+</span>
+</a>
+<div class="card-text mt-4">
+<div class="float-left" itemscope="" itemtype="http://schema.org/AggregateOffer">
+<span>$<span>199</span></span>
+</div>
+<span class="float-right">
+<span>199</span> reviews
+</span>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-12 col-md-4 col-lg-3 mb-3">
+<div class="card card-frame position-relative">
+<a href="https://www.mageplaza.com/magento-2-layered-navigation-extension/">
+<img class="card-img-top" src="./Mageplaza_files/magento-2-layered-navigation.png" alt="Layered Navigation">
+</a>
+<div class="card-body">
+<a href="https://www.mageplaza.com/magento-2-layered-navigation-extension/">
+<span class="card-title grey-text text-darken-4 truncate">
+Layered Navigation
+</span>
+</a>
+<div class="card-text mt-4">
+<div class="float-left" itemscope="" itemtype="http://schema.org/AggregateOffer">
+<span>$<span>99</span></span>
+</div>
+<span class="float-right">
+<span>96</span> reviews
+</span>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-12 col-md-4 col-lg-3 mb-3">
+<div class="card card-frame position-relative">
+<a href="https://www.mageplaza.com/magento-2-reward-points-extension/">
+<img class="card-img-top" src="./Mageplaza_files/reward-points.png" alt="Reward Points">
+</a>
+<div class="card-body">
+<a href="https://www.mageplaza.com/magento-2-reward-points-extension/">
+<span class="card-title grey-text text-darken-4 truncate">
+Reward Points
+</span>
+</a>
+<div class="card-text mt-4">
+<div class="float-left" itemscope="" itemtype="http://schema.org/AggregateOffer">
+<span>$<span>99</span></span>
+</div>
+<span class="float-right">
+<span>23</span> reviews
+</span>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-12 col-md-4 col-lg-3 mb-3">
+<div class="card card-frame position-relative">
+<a href="https://www.mageplaza.com/magento-2-subscription-recurring-payments/">
+<span class="badge badge-danger discounted-label position-absolute" style="right: 0;font-size: 1.2em;border-radius: 10px 0 0px 10px;z-index: 99;">
+-50%
+</span>
+<img class="card-img-top" src="./Mageplaza_files/Subscription-and-Recurring Payments-02.webp" alt="Subscription &amp; Recurring Payments">
+</a>
+<div class="card-body">
+<a href="https://www.mageplaza.com/magento-2-subscription-recurring-payments/">
+<span class="card-title grey-text text-darken-4 truncate">
+Subscription &amp; Recurring Payments
+</span>
+</a>
+<div class="card-text mt-4">
+<div class="float-left" itemscope="" itemtype="http://schema.org/AggregateOffer">
+<span class="special-price-list">$<span>199</span></span> (<span class="old-price-list">$<span>399</span></span>)
+</div>
+<span class="float-right">
+</span>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-12 col-md-4 col-lg-3 mb-3">
+<div class="card card-frame position-relative">
+<a href="https://www.mageplaza.com/magento-2-affiliate-extension/">
+<img class="card-img-top" src="./Mageplaza_files/magento-2-affiliate.png" alt="Affiliate">
+</a>
+<div class="card-body">
+<a href="https://www.mageplaza.com/magento-2-affiliate-extension/">
+<span class="card-title grey-text text-darken-4 truncate">
+Affiliate
+</span>
+</a>
+<div class="card-text mt-4">
+<div class="float-left" itemscope="" itemtype="http://schema.org/AggregateOffer">
+<span>$<span>99</span></span>
+</div>
+<span class="float-right">
+<span>32</span> reviews
+</span>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-12 col-md-4 col-lg-3 mb-3">
+<div class="card card-frame position-relative">
+<a href="https://www.mageplaza.com/magento-2-pdf-invoice-extension/">
+<img class="card-img-top" src="./Mageplaza_files/magento-2-pdf-invoice.png" alt="PDF Invoice">
+</a>
+<div class="card-body">
+<a href="https://www.mageplaza.com/magento-2-pdf-invoice-extension/">
+<span class="card-title grey-text text-darken-4 truncate">
+PDF Invoice
+</span>
+</a>
+<div class="card-text mt-4">
+<div class="float-left" itemscope="" itemtype="http://schema.org/AggregateOffer">
+<span>$<span>199</span></span>
+</div>
+<span class="float-right">
+<span>26</span> reviews
+</span>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-12 col-md-4 col-lg-3 mb-3">
+<div class="card card-frame position-relative">
+<a href="https://www.mageplaza.com/magento-2-automatic-related-products/">
+<img class="card-img-top" src="./Mageplaza_files/magento-2-automatic-related-products.png" alt="Automatic Related Products">
+</a>
+<div class="card-body">
+<a href="https://www.mageplaza.com/magento-2-automatic-related-products/">
+<span class="card-title grey-text text-darken-4 truncate">
+Automatic Related Products
+</span>
+</a>
+<div class="card-text mt-4">
+<div class="float-left" itemscope="" itemtype="http://schema.org/AggregateOffer">
+<span>$<span>199</span></span>
+</div>
+<span class="float-right">
+<span>33</span> reviews
+</span>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-12 col-md-4 col-lg-3 mb-3">
+<div class="card card-frame position-relative">
+<a href="https://www.mageplaza.com/avada-email-marketing/">
+<span class="badge badge-primary discounted-label position-absolute" style="right: 0;font-size: 1.2em;border-radius: 10px 0 0px 10px;z-index: 99;">FREE</span>
+<img class="card-img-top" src="./Mageplaza_files/email-marketing.png" alt="Marketing Automation">
+</a>
+<div class="card-body">
+<a href="https://www.mageplaza.com/avada-email-marketing/">
+<span class="card-title grey-text text-darken-4 truncate">
+Marketing Automation
+</span>
+</a>
+<div class="card-text mt-4">
+<div class="float-left" itemscope="" itemtype="http://schema.org/AggregateOffer">
+<span>FREE</span>
+</div>
+<span class="float-right">
+</span>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-12 col-md-4 col-lg-3 mb-3">
+<div class="card card-frame position-relative">
+<a href="https://www.mageplaza.com/magento-2-cro/">
+<img class="card-img-top" src="./Mageplaza_files/cro.png" alt="CRO">
+</a>
+<div class="card-body">
+<a href="https://www.mageplaza.com/magento-2-cro/">
+<span class="card-title grey-text text-darken-4 truncate">
+CRO
+</span>
+</a>
+<div class="card-text mt-4">
+<div class="float-left" itemscope="" itemtype="http://schema.org/AggregateOffer">
+<span>$<span>645</span></span>
+</div>
+<span class="float-right">
+<span>4</span> reviews
+</span>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-12 col-md-4 col-lg-3 mb-3">
+<div class="card card-frame position-relative">
+<a href="https://www.mageplaza.com/magento-2-gift-card-extension/">
+<img class="card-img-top" src="./Mageplaza_files/magento-2-gift-card.png" alt="Gift Card">
+</a>
+<div class="card-body">
+<a href="https://www.mageplaza.com/magento-2-gift-card-extension/">
+<span class="card-title grey-text text-darken-4 truncate">
+Gift Card
+</span>
+</a>
+<div class="card-text mt-4">
+<div class="float-left" itemscope="" itemtype="http://schema.org/AggregateOffer">
+<span>$<span>199</span></span>
+</div>
+<span class="float-right">
+<span>18</span> reviews
+
+</span>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-12 col-md-4 col-lg-3 mb-3">
+<div class="card card-frame position-relative">
+<a href="https://www.mageplaza.com/magento-2-social-login-extension/">
+<span class="badge badge-primary discounted-label position-absolute" style="right: 0;font-size: 1.2em;border-radius: 10px 0 0px 10px;z-index: 99;">FREE</span>
+<img class="card-img-top" src="./Mageplaza_files/magento-2-social-login-extension.png" alt="Social Login">
+</a>
+<div class="card-body">
+<a href="https://www.mageplaza.com/magento-2-social-login-extension/">
+<span class="card-title grey-text text-darken-4 truncate">
+Social Login
+</span>
+</a>
+<div class="card-text mt-4">
+<div class="float-left" itemscope="" itemtype="http://schema.org/AggregateOffer">
+<span>FREE</span>
+</div>
+<span class="float-right">
+<span>160</span> reviews
+</span>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-12 col-md-4 col-lg-3 mb-3">
+<div class="card card-frame position-relative">
+<a href="https://www.mageplaza.com/magento-2-google-tag-manager/">
+<img class="card-img-top" src="./Mageplaza_files/magento-2-google-tag-manager.png" alt="Google Tag Manager">
+</a>
+<div class="card-body">
+<a href="https://www.mageplaza.com/magento-2-google-tag-manager/">
+<span class="card-title grey-text text-darken-4 truncate">
+Google Tag Manager
+</span>
+</a>
+<div class="card-text mt-4">
+<div class="float-left" itemscope="" itemtype="http://schema.org/AggregateOffer">
+<span>$<span>99</span></span>
+</div>
+<span class="float-right">
+<span>43</span> reviews
+</span>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-12">
+<p class="float-right"><a href="https://www.mageplaza.com/magento-2-extensions/" class="add-to-cart btn btn-block btn-soft-primary text-white mp-bg-primary-green transition-3d-hover pt-2 pb-2"> All Extensions
+<i class="fa fa-angle-double-right"></i></a></p>
+</div>
+</div>
+<div class="divider"></div>
+
+<div class="row mt-3" id="new-extensions">
+<div class="col-sm-12">
+<h2 class="col-sm-12 h4 header"><a class="header" href="https://www.mageplaza.com/magento-2-extensions/">New
+Extensions</a></h2>
+</div>
+<div class="col-sm-12 col-md-4 col-lg-3 mb-3">
+<div class="card card-frame position-relative">
+<a href="https://www.mageplaza.com/magento-2-subscription-recurring-payments/">
+<span class="badge badge-danger discounted-label position-absolute" style="right: 0;font-size: 1.2em;border-radius: 10px 0 0px 10px;z-index: 99;">
+-50%
+</span>
+<img class="card-img-top" src="./Mageplaza_files/Subscription-and-Recurring Payments-02.webp" alt="Subscription &amp; Recurring Payments">
+</a>
+<div class="card-body">
+<a href="https://www.mageplaza.com/magento-2-subscription-recurring-payments/">
+<span class="card-title grey-text text-darken-4 truncate">
+Subscription &amp; Recurring Payments
+</span>
+</a>
+<div class="card-text mt-4">
+<div class="float-left" itemscope="" itemtype="http://schema.org/AggregateOffer">
+<span class="special-price-list">$<span>199</span></span> (<span class="old-price-list">$<span>399</span></span>)
+</div>
+<span class="float-right">
+</span>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-12 col-md-4 col-lg-3 mb-3">
+<div class="card card-frame position-relative">
+<a href="https://www.mageplaza.com/magento-2-lookbook/">
+<img class="card-img-top" src="./Mageplaza_files/lookbook.png" alt="Lookbook">
+</a>
+<div class="card-body">
+<a href="https://www.mageplaza.com/magento-2-lookbook/">
+<span class="card-title grey-text text-darken-4 truncate">
+Lookbook
+</span>
+</a>
+<div class="card-text mt-4">
+<div class="float-left" itemscope="" itemtype="http://schema.org/AggregateOffer">
+<span>$<span>179</span></span>
+</div>
+<span class="float-right">
+<span>1</span> review
+</span>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-12 col-md-4 col-lg-3 mb-3">
+<div class="card card-frame position-relative">
+<a href="https://www.mageplaza.com/magento-2-company-accounts-extension/">
+<img class="card-img-top" src="./Mageplaza_files/company-accounts.png" alt="Company Accounts">
+</a>
+<div class="card-body">
+<a href="https://www.mageplaza.com/magento-2-company-accounts-extension/">
+<span class="card-title grey-text text-darken-4 truncate">
+Company Accounts
+</span>
+</a>
+<div class="card-text mt-4">
+<div class="float-left" itemscope="" itemtype="http://schema.org/AggregateOffer">
+<span>$<span>149</span></span>
+</div>
+<span class="float-right">
+<span>3</span> reviews
+</span>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-12 col-md-4 col-lg-3 mb-3">
+<div class="card card-frame position-relative">
+<a href="https://www.mageplaza.com/magento-2-multichannel-selling/">
+<img class="card-img-top" src="./Mageplaza_files/multichannel-selling.png" alt="Multichannel Selling">
+</a>
+<div class="card-body">
+<a href="https://www.mageplaza.com/magento-2-multichannel-selling/">
+<span class="card-title grey-text text-darken-4 truncate">
+Multichannel Selling
+</span>
+</a>
+<div class="card-text mt-4">
+<div class="float-left" itemscope="" itemtype="http://schema.org/AggregateOffer">
+<span>$<span>398</span></span>
+</div>
+<span class="float-right">
+<span>3</span> reviews
+</span>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-12 col-md-4 col-lg-3 mb-3">
+ <div class="card card-frame position-relative">
+<a href="https://www.mageplaza.com/magento-2-checkout-flow-pro/">
+<img class="card-img-top" src="./Mageplaza_files/magento-2-checkout-flow-pro.png" alt="Checkout Flow Pro">
+</a>
+<div class="card-body">
+<a href="https://www.mageplaza.com/magento-2-checkout-flow-pro/">
+<span class="card-title grey-text text-darken-4 truncate">
+Checkout Flow Pro
+</span>
+</a>
+<div class="card-text mt-4">
+<div class="float-left" itemscope="" itemtype="http://schema.org/AggregateOffer">
+<span>$<span>756</span></span>
+</div>
+<span class="float-right">
+<span>3</span> reviews
+</span>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-12 col-md-4 col-lg-3 mb-3">
+<div class="card card-frame position-relative">
+<a href="https://www.mageplaza.com/magento-2-selling-more/">
+<img class="card-img-top" src="./Mageplaza_files/selling-more.png" alt="Selling More">
+</a>
+<div class="card-body">
+<a href="https://www.mageplaza.com/magento-2-selling-more/">
+<span class="card-title grey-text text-darken-4 truncate">
+Selling More
+</span>
+</a>
+<div class="card-text mt-4">
+<div class="float-left" itemscope="" itemtype="http://schema.org/AggregateOffer">
+<span>$<span>697</span></span>
+</div>
+<span class="float-right">
+<span>3</span> reviews
+</span>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-12 col-md-4 col-lg-3 mb-3">
+<div class="card card-frame position-relative">
+<a href="https://www.mageplaza.com/magento-2-shipping-pro/">
+<img class="card-img-top" src="./Mageplaza_files/magento-2-shipping-pro.png" alt="Shipping Pro">
+</a>
+<div class="card-body">
+<a href="https://www.mageplaza.com/magento-2-shipping-pro/">
+<span class="card-title grey-text text-darken-4 truncate">
+Shipping Pro
+</span>
+</a>
+<div class="card-text mt-4">
+<div class="float-left" itemscope="" itemtype="http://schema.org/AggregateOffer">
+<span>$<span>825</span></span>
+</div>
+<span class="float-right">
+<span>2</span> reviews
+</span>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-12 col-md-4 col-lg-3 mb-3">
+<div class="card card-frame position-relative">
+<a href="https://www.mageplaza.com/magento-2-starter-pack/">
+<img class="card-img-top" src="./Mageplaza_files/magento-2-starter-pack.png" alt="Starter Pack">
+</a>
+<div class="card-body">
+<a href="https://www.mageplaza.com/magento-2-starter-pack/">
+<span class="card-title grey-text text-darken-4 truncate">
+Starter Pack
+</span>
+</a>
+<div class="card-text mt-4">
+<div class="float-left" itemscope="" itemtype="http://schema.org/AggregateOffer">
+ <span>$<span>1325</span></span>
+</div>
+<span class="float-right">
+<span>3</span> reviews
+</span>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-12">
+<p class="float-right"><a href="https://www.mageplaza.com/magento-2-new-extensions/" class="add-to-cart btn btn-block btn-soft-primary text-white mp-bg-primary-green transition-3d-hover pt-2 pb-2"> All New Extensions
+<i class="fa fa-angle-double-right"></i></a></p>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</main>
+
+
+<footer class="bg-dark">
+<div class="container space-top-2">
+<div class="row justify-content-lg-between mb-7">
+<div class="col-12 col-md-4 col-lg-4 mb-7 mb-lg-0">
+
+<p>
+<a class="d-flex align-items-center mb-lg-auto" href="https://www.mageplaza.com/" aria-label="Mageplaza">
+<img class="lazyload" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-src="https://www.mageplaza.com/skin/frontend/mageplaza/default/img/logo-white.png" alt="Mageplaza logo white">
+</a>
+</p>
+
+
+<address class="list-group list-group-transparent list-group-white list-group-flush list-group-borderless mb-0">
+<a class="list-group-item list-group-item-action" href="mailto:support@mageplaza.com">support@mageplaza.com</a>
+<a class="list-group-item list-group-item-action" href="https://www.mageplaza.com/#address">USA: 100 Church St, Manhattan, New York</a>
+<a class="list-group-item list-group-item-action" href="https://www.mageplaza.com/#address-2">VN: 102 Tran Phu, Ha Dong, Hanoi</a>
+</address>
+
+<p style="padding: 25px 0; margin-bottom: 0"><a href="https://marketplace.magento.com/partner/mageplaza" target="_blank" rel="noopener"><img src="./Mageplaza_files/badge-adobe-innovate.png" alt="Adobe Innovate Exchange Partner" class="footer-img"></a></p><a href="https://marketplace.magento.com/partner/mageplaza" target="_blank" rel="noopener">
+
+<p>
+<img class="lazyload" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-src="https://www.mageplaza.com//skin/frontend/mageplaza/default/img/badge/badge-cert-developer.png" alt="badge-cert-developer">
+<img class="lazyload" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-src="https://www.mageplaza.com//skin/frontend/mageplaza/default/img/badge/badge-cert-dev-plus.png" alt="badge-cert-dev-plus">
+<img class="lazyload" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-src="https://www.mageplaza.com//skin/frontend/mageplaza/default/img/badge/badge-cert-frontend.png" alt="badge-cert-frontend">
+</p>
+</a><p style="margin-top: 25px"><a href="https://marketplace.magento.com/partner/mageplaza" target="_blank" rel="noopener">
+</a><a href="https://www.trustpilot.com/review/mageplaza.com" target="_blank" rel="noopener">
+<img class="lazyload" src="./Mageplaza_files/badge-trustpilot.png" data-src="https://www.mageplaza.com/skin/frontend/mageplaza/default/img/badge/badge-trustpilot.png" alt="mageplaza trustpilot">
+</a>
+</p>
+</div>
+<div class="col-6 col-md-4 col-lg-2 mb-7 mb-lg-0">
+<h4 class="h6 text-white">Company</h4>
+
+<ul class="list-group list-group-transparent list-group-white list-group-flush list-group-borderless mb-0">
+<li><a class="list-group-item list-group-item-action" href="https://www.mageplaza.com/about-us.html" rel="nofollow">About us</a></li>
+<li><a class="list-group-item list-group-item-action" href="https://www.mageplaza.com/customer-says.html" rel="nofollow">Customer Says</a></li>
+<li><a class="list-group-item list-group-item-action" href="https://www.mageplaza.com/pack-builder/" rel="nofollow">Discount Programs</a></li>
+<li><a class="list-group-item list-group-item-action" href="https://www.mageplaza.com/privacy.html" rel="nofollow">Privacy &amp; Policy</a></li>
+<li><a class="list-group-item list-group-item-action" href="https://www.mageplaza.com/tos.html" rel="nofollow">Terms &amp; Conditions</a></li>
+<li><a class="list-group-item list-group-item-action" href="https://www.mageplaza.com/LICENSE.txt" rel="nofollow">License Agreement</a></li>
+<li><a class="list-group-item list-group-item-action" href="https://www.mageplaza.com/become-contributor.html" rel="nofollow">Become a Contributor</a></li>
+</ul>
+
+</div>
+<div class="col-6 col-md-4 col-lg-2 mb-7 mb-lg-0">
+<h4 class="h6 text-white">Customer Services</h4>
+<ul class="list-group list-group-transparent list-group-white list-group-flush list-group-borderless mb-0">
+<li><a class="list-group-item list-group-item-action" href="https://www.mageplaza.com/support/" rel="nofollow">Support</a></li>
+
+<li><a class="list-group-item list-group-item-action" href="https://www.mageplaza.com/schedule-a-call.html" rel="nofollow">Schedule a call</a></li>
+<li><a class="list-group-item list-group-item-action" href="https://www.mageplaza.com/rewards/" rel="noopener nofollow">Reward Program</a></li> 
+<li><a class="list-group-item list-group-item-action" href="https://www.mageplaza.com/partner-program/" rel="nofollow">Partner Program</a></li>
+<li><a class="list-group-item list-group-item-action" href="https://www.mageplaza.com/deals/" target="_blank" rel="nofollow">Deals</a></li>
+<li><a class="list-group-item list-group-item-action" href="https://dashboard.mageplaza.com/affiliate/" rel="noopener nofollow">Affiliate Program</a></li>
+<li><a class="list-group-item list-group-item-action" href="https://www.mageplaza.com/our-partners/" rel="nofollow">Official Partners</a></li>
+</ul>
+</div>
+<div class="col-sm-6 col-md-5 col-lg-3 col-lg-3">
+<div class="mb-4">
+<h4 class="h6 text-white mb-3">Subscribe</h4>
+
+<form id="subscribe-form">
+<input type="hidden" name="isAjax" value="1">
+<label class="sr-only" for="subcribe_email1">Your email</label>
+<div class="input-group">
+<input type="email" class="form-control" name="subcribe_email" id="subcribe_email1" placeholder="Your email" required="" data-msg="Please enter a valid email address.">
+<div class="input-group-append">
+<button type="submit" class="btn btn-soft-primary mp-bg-blue text-white" id="subscribeButton1">
+<span class="fas fa-paper-plane"></span>
+</button>
+</div>
+</div>
+<div class="mp-message-box mt-1"></div>
+</form>
+
+</div>
+<h4 class="h6 text-white-70 mb-3">Stay in touch</h4>
+
+<ul class="list-inline mb-0">
+<li class="list-inline-item">
+<a class="btn btn-sm btn-icon btn-soft-secondary" href="https://www.facebook.com/mageplaza/" target="_blank" rel="noopener nofollow">
+<span class="fab fa-facebook-f btn-icon__inner"></span>
+</a>
+</li>
+<li class="list-inline-item">
+<a class="btn btn-sm btn-icon btn-soft-secondary" href="https://twitter.com/mageplaza" target="_blank" rel="noopener nofollow">
+<span class="fab fa-twitter btn-icon__inner"></span>
+</a>
+</li>
+<li class="list-inline-item">
+<a class="btn btn-sm btn-icon btn-soft-secondary" href="https://www.youtube.com/channel/UCn-8IRnmFBeVsZJ6TotlrrQ" target="_blank" rel="noopener nofollow">
+<span class="fab fa-youtube btn-icon__inner"></span>
+</a>
+</li>
+<li class="list-inline-item">
+<a class="btn btn-sm btn-icon btn-soft-secondary" href="https://github.com/mageplaza" target="_blank" rel="noopener nofollow">
+<span class="fab fa-github btn-icon__inner"></span>
+</a>
+</li>
+</ul>
+
+</div>
+</div>
+<div class="row justify-content-between align-items-center space-1">
+<div class="col-5">
+<p class="small mb-0">© Copyright 2022 by Mageplaza. All Rights Reserved.</p>
+<p class="small mb-0">Magento® Commerce or Adobe Commerce is a registered trademark by Adobe.</p>
+</div>
+<div class="col-6  footer-internal-link">
+<a href="https://www.mageplaza.com/magento-2-one-step-checkout-extension/" title="Magento 2 one step checkout">One Step Checkout</a> /
+<a href="https://www.mageplaza.com/magento-2-layered-navigation-extension/" title="Magento 2 Layered Navigation Ultimate">Layered Navigation</a> /
+<a href="https://www.mageplaza.com/magento-2-affiliate-extension/" title="Magento 2 Affiliate extension">Affiliate PRO</a> /
+<a href="https://www.mageplaza.com/magento-2-seo-extension/" title="Magento 2 SEO extension">Magento 2 SEO</a> /
+<a href="https://www.mageplaza.com/magento-2-sms-notification/" title="Magento 2 SMS Notification">SMS Notification</a> /
+<a href="https://www.mageplaza.com/magento-2-better-blog/" title="Magento 2 blog extension">Better Blog</a> /
+<a href="https://www.mageplaza.com/magento-2-security/">Security Suite</a> /
+<a href="https://www.mageplaza.com/magento-2-gift-card-extension/" title="Magento 2 Gift Card, Certificates">Gift Card</a> /
+<a href="https://www.mageplaza.com/magento-2-reward-points-extension/" title="Magento 2 Reward Points">Reward Points</a> /
+<a href="https://www.mageplaza.com/magento-2-shop-by-brand/" title="Magento 2 Shop by brand">Shop by Brand</a> /
+<a href="https://www.mageplaza.com/magento-2-smtp/">SMTP</a> /
+<a href="https://www.mageplaza.com/magento-2-pdf-invoice-extension/">PDF Invoice</a> /
+<a href="https://avada.io/" title="Avada Commerce">AVADA</a> /
+<a href="https://avada.io/platform/magento/" title="Magento 2 SMS, Email Marketing">Email Marketing</a> /
+<a href="https://www.mageplaza.com/sitemap/" title="Mageplaza Sitemap">Sitemap</a> /
+<a href="https://www.mageplaza.com/magento-2-extensions/administration.html" title="Magento 2 Administration extensions">Administration extensions</a> /
+<a href="https://www.mageplaza.com/magento-2-extensions/checkout.html" title="Magento 2 Checkout extensions">Checkout extensions</a> /
+<a href="https://www.mageplaza.com/magento-2-extensions/promotions.html" title="Magento 2 Promotions extensions">Promotion extensions</a> /
+<a href="https://www.mageplaza.com/magento-2-extensions/b2b.html" title="Magento 2 B2B extensions">B2B extensions</a> /
+<a href="https://www.mageplaza.com/magento-2-extensions/navigation.html" title="Magento 2 Navigation extensions">Navigation extensions</a> /
+<a href="https://www.mageplaza.com/magento-2-extensions/product-enhancements.html" title="Magento 2 Product Enchancements extensions">Product Enchancements</a> /
+<a href="https://www.mageplaza.com/magento-2-extensions/sales-motivation.html" title="Magento 2 Sales Motivation extensions">Sales Motivation</a> /
+<a href="https://www.mageplaza.com/magento-2-extensions/content-management.html" title="Magento 2 Content Management extensions">Content Management</a> /
+<a href="https://www.mageplaza.com/magento-2-extensions/user-experience.html" title="Magento 2 User Experience extensions">User Experience</a> /
+<a href="https://www.mageplaza.com/magento-2-extensions/order-management.html" title="Magento 2 Order Management extensions">Order Management</a> /
+<a href="https://www.mageplaza.com/magento-2-extensions/seo-suite.html" title="Magento 2 SEO Suite extensions">SEO Suite</a> /
+<a href="https://www.mageplaza.com/magento-2-extensions/payment.html" title="Magento 2 Payment extensions">Payment extensions</a> /
+<a href="https://www.mageplaza.com/magento-2-extensions/shipping-payment.html" title="Magento 2 Shipping &amp; Fee extensions">Shipping &amp; Fee</a> /
+<a href="https://www.mageplaza.com/magento-2-extensions/cro.html" title="Magento 2 CRO Extensions">CRO Extensions</a> /
+<a href="https://www.mageplaza.com/magento-2-extensions/security.html" title="Magento 2 Security extensions">Security extensions</a> /
+<a href="https://www.mageplaza.com/review/" title="Magento 2 extensions review">Extension Reviews</a> /
+<a href="https://www.mageplaza.com/blog/magento-1-to-magento-2-upgrade.html" title="Magento 2 Migration">Migrate Magento 1 to Magento 2</a>
+</div>
+</div>
+</div>
+</footer>
+
+
+
+<aside id="sidebarContent" class="u-sidebar u-unfold--css-animation u-unfold--hidden" aria-labelledby="sidebarNavToggler" style="animation-duration: 500ms;">
+<div class="u-sidebar__scroller">
+<div class="u-sidebar__container">
+<div class="u-header-sidebar__footer-offset">
+
+<div class="d-flex align-items-center pt-4 px-7">
+<button type="button" class="close ml-auto target-of-invoker-has-unfolds" aria-controls="sidebarContent" aria-haspopup="true" aria-expanded="false" data-unfold-event="click" data-unfold-hide-on-scroll="false" data-unfold-target="#sidebarContent" data-unfold-type="css-animation" data-unfold-animation-in="fadeInRight" data-unfold-animation-out="fadeOutRight" data-unfold-duration="500">
+<span aria-hidden="true">×</span>
+</button>
+</div>
+
+
+<div class="js-scrollbar u-sidebar__body mCustomScrollbar _mCS_1 mCS-autoHide" style="position: relative; overflow: visible;"><div id="mCSB_1" class="mCustomScrollBox mCS-minimal-dark mCSB_vertical mCSB_outside" style="max-height: none;" tabindex="0"><div id="mCSB_1_container" class="mCSB_container" style="position:relative; top:0; left:0;" dir="ltr">
+<div class="u-sidebar__content u-header-sidebar__content">
+<form class="js-validate" novalidate="novalidate">
+
+<div id="login" data-target-group="idForm">
+
+<header class="text-center mb-7">
+<p class="h4 mb-0">Welcome Back!</p>
+<p>Login to manage your account.</p>
+</header>
+
+
+ <div class="form-group">
+<div class="js-form-message js-focus-state">
+<label class="sr-only" for="signinEmail">Email</label>
+<div class="input-group">
+<div class="input-group-prepend">
+<span class="input-group-text" id="signinEmailLabel">
+<span class="fas fa-user"></span>
+</span>
+</div>
+<input type="email" class="form-control" name="email" id="signinEmail" placeholder="Email" aria-label="Email" aria-describedby="signinEmailLabel" required="" data-msg="Please enter a valid email address." data-error-class="u-has-error" data-success-class="u-has-success">
+</div>
+</div>
+</div>
+
+
+<div class="form-group">
+<div class="js-form-message js-focus-state">
+<label class="sr-only" for="signinPassword">Password</label>
+<div class="input-group">
+<div class="input-group-prepend">
+<span class="input-group-text" id="signinPasswordLabel">
+<span class="fas fa-lock"></span>
+</span>
+</div>
+<input type="password" class="form-control" name="password" id="signinPassword" placeholder="Password" aria-label="Password" aria-describedby="signinPasswordLabel" required="" data-msg="Your password is invalid. Please try again." data-error-class="u-has-error" data-success-class="u-has-success">
+</div>
+</div>
+</div>
+
+<div class="d-flex justify-content-end mb-4">
+<a class="js-animation-link small link-muted" href="javascript:;" data-target="#forgotPassword" data-link-group="idForm" data-animation-in="slideInUp">Forgot Password?</a>
+</div>
+<div class="mb-2">
+<button type="submit" class="btn btn-block btn-sm btn-primary transition-3d-hover">Login</button>
+</div>
+<div class="text-center mb-4">
+<span class="small text-muted">Do not have an account?</span>
+<a class="js-animation-link small" href="javascript:;" data-target="#signup" data-link-group="idForm" data-animation-in="slideInUp">Signup
+</a>
+</div>
+<div class="text-center">
+<span class="u-divider u-divider--xs u-divider--text mb-4">OR</span>
+</div>
+
+<div class="d-flex">
+<a class="btn btn-block btn-sm btn-soft-facebook transition-3d-hover mr-1" href="https://www.mageplaza.com/#">
+<span class="fab fa-facebook-square mr-1"></span>
+Facebook
+</a>
+<a class="btn btn-block btn-sm btn-soft-google transition-3d-hover ml-1 mt-0" href="https://www.mageplaza.com/#">
+<span class="fab fa-google mr-1"></span>
+Google
+</a>
+</div>
+
+</div>
+
+<div id="signup" style="display: none; opacity: 0;" data-target-group="idForm">
+
+<header class="text-center mb-7">
+<p class="h4 mb-0">Welcome to Mageplaza.</p>
+ <p>Fill out the form to get started.</p>
+</header>
+
+
+<div class="form-group">
+<div class="js-form-message js-focus-state">
+<label class="sr-only" for="signupEmail">Email</label>
+<div class="input-group">
+<div class="input-group-prepend">
+<span class="input-group-text" id="signupEmailLabel">
+<span class="fas fa-user"></span>
+</span>
+</div>
+<input type="email" class="form-control" name="email" id="signupEmail" placeholder="Email" aria-label="Email" aria-describedby="signupEmailLabel" required="" data-msg="Please enter a valid email address." data-error-class="u-has-error" data-success-class="u-has-success">
+</div>
+</div>
+</div>
+
+
+<div class="form-group">
+<div class="js-form-message js-focus-state">
+<label class="sr-only" for="signupPassword">Password</label>
+<div class="input-group">
+<div class="input-group-prepend">
+<span class="input-group-text" id="signupPasswordLabel">
+<span class="fas fa-lock"></span>
+</span>
+</div>
+<input type="password" class="form-control" name="password" id="signupPassword" placeholder="Password" aria-label="Password" aria-describedby="signupPasswordLabel" required="" data-msg="Your password is invalid. Please try again." data-error-class="u-has-error" data-success-class="u-has-success">
+</div>
+</div>
+</div>
+
+
+<div class="form-group">
+<div class="js-form-message js-focus-state">
+<label class="sr-only" for="signupConfirmPassword">Confirm Password</label>
+<div class="input-group">
+<div class="input-group-prepend">
+<span class="input-group-text" id="signupConfirmPasswordLabel">
+<span class="fas fa-key"></span>
+</span>
+</div>
+<input type="password" class="form-control" name="confirmPassword" id="signupConfirmPassword" placeholder="Confirm Password" aria-label="Confirm Password" aria-describedby="signupConfirmPasswordLabel" required="" data-msg="Password does not match the confirm password." data-error-class="u-has-error" data-success-class="u-has-success">
+</div>
+</div>
+</div>
+
+<div class="mb-2">
+<button type="submit" class="btn btn-block btn-sm btn-primary transition-3d-hover">Get Started</button>
+</div>
+<div class="text-center mb-4">
+<span class="small text-muted">Already have an account?</span>
+<a class="js-animation-link small" href="javascript:;" data-target="#login" data-link-group="idForm" data-animation-in="slideInUp">Login
+</a>
+</div>
+<div class="text-center">
+<span class="u-divider u-divider--xs u-divider--text mb-4">OR</span>
+</div>
+
+<div class="d-flex">
+<a class="btn btn-block btn-sm btn-soft-facebook transition-3d-hover mr-1" href="https://www.mageplaza.com/#">
+<span class="fab fa-facebook-square mr-1"></span>
+Facebook
+</a>
+<a class="btn btn-block btn-sm btn-soft-google transition-3d-hover ml-1 mt-0" href="https://www.mageplaza.com/#">
+<span class="fab fa-google mr-1"></span>
+Google
+</a>
+</div>
+
+</div>
+
+
+<div id="forgotPassword" style="display: none; opacity: 0;" data-target-group="idForm">
+
+<header class="text-center mb-7">
+<p class="h4 mb-0">Recover Password.</p>
+<p>Enter your email address and an email with instructions will be sent to you.</p>
+</header>
+
+
+<div class="form-group">
+<div class="js-form-message js-focus-state">
+<label class="sr-only" for="recoverEmail">Your email</label>
+<div class="input-group">
+<div class="input-group-prepend">
+<span class="input-group-text" id="recoverEmailLabel">
+<span class="fas fa-user"></span>
+</span>
+</div>
+<input type="email" class="form-control" name="email" id="recoverEmail" placeholder="Your email" aria-label="Your email" aria-describedby="recoverEmailLabel" required="" data-msg="Please enter a valid email address." data-error-class="u-has-error" data-success-class="u-has-success">
+</div>
+</div>
+</div>
+
+<div class="mb-2">
+<button type="submit" class="btn btn-block btn-sm btn-primary transition-3d-hover">Recover Password</button>
+</div>
+<div class="text-center mb-4">
+<span class="small text-muted">Remember your password?</span>
+<a class="js-animation-link small" href="javascript:;" data-target="#login" data-link-group="idForm" data-animation-in="slideInUp">Login
+</a>
+</div>
+</div>
+
+</form>
+</div>
+</div></div><div id="mCSB_1_scrollbar_vertical" class="mCSB_scrollTools mCSB_1_scrollbar mCS-minimal-dark mCSB_scrollTools_vertical" style="display: block;"><div class="mCSB_draggerContainer"><div id="mCSB_1_dragger_vertical" class="mCSB_dragger" style="position: absolute; min-height: 50px; display: block; height: 459px; max-height: 474px; top: 0px;"><div class="mCSB_dragger_bar" style="line-height: 50px;"></div></div><div class="mCSB_draggerRail"></div></div></div></div>
+
+</div>
+
+<footer id="SVGwaveWithDots" class="u-sidebar__footer u-sidebar__footer--account" style="">
+<ul class="list-inline mb-0">
+<li class="list-inline-item pr-3">
+<a class="u-sidebar__footer--account__text" href="https://www.mageplaza.com/">Privacy</a>
+</li>
+<li class="list-inline-item pr-3">
+<a class="u-sidebar__footer--account__text" href="https://www.mageplaza.com/">Terms</a>
+</li>
+<li class="list-inline-item">
+<a class="u-sidebar__footer--account__text" href="https://www.mageplaza.com/">
+<i class="fas fa-info-circle"></i>
+</a>
+</li>
+</ul>
+
+<div class="position-absolute right-0 bottom-0 left-0">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 300 126.5" style="margin-bottom: -5px; enable-background:new 0 0 300 126.5;" xml:space="preserve" class="injected-svg js-svg-injector" data-parent="#SVGwaveWithDots">
+<style type="text/css">
+	.wave-bottom-with-dots-0{fill:#377DFF;}
+	.wave-bottom-with-dots-1{fill:#377DFF;}
+	.wave-bottom-with-dots-2{fill:#DE4437;}
+	.wave-bottom-with-dots-3{fill:#00C9A7;}
+	.wave-bottom-with-dots-4{fill:#FFC107;}
+</style>
+<path class="wave-bottom-with-dots-0 fill-primary" opacity=".6" d="M0,58.9c0-0.9,5.1-2,5.8-2.2c6-0.8,11.8,2.2,17.2,4.6c4.5,2.1,8.6,5.3,13.3,7.1C48.2,73.3,61,73.8,73,69  c43-16.9,40-7.9,84-2.2c44,5.7,83-31.5,143-10.1v69.8H0C0,126.5,0,59,0,58.9z"></path>
+<path class="wave-bottom-with-dots-1 fill-primary" d="M300,68.5v58H0v-58c0,0,43-16.7,82,5.6c12.4,7.1,26.5,9.6,40.2,5.9c7.5-2.1,14.5-6.1,20.9-11  c6.2-4.7,12-10.4,18.8-13.8c7.3-3.8,15.6-5.2,23.6-5.2c16.1,0.1,30.7,8.2,45,16.1c13.4,7.4,28.1,12.2,43.3,11.2  C282.5,76.7,292.7,74.4,300,68.5z"></path>
+<g>
+	<circle class="wave-bottom-with-dots-2 fill-danger" cx="259.5" cy="17" r="13"></circle>
+	<circle class="wave-bottom-with-dots-1 fill-primary" cx="290" cy="35.5" r="8.5"></circle>
+	<circle class="wave-bottom-with-dots-3 fill-success" cx="288" cy="5.5" r="5.5"></circle>
+	<circle class="wave-bottom-with-dots-4 fill-warning" cx="232.5" cy="34" r="2"></circle>
+</g>
+</svg>
+</div>
+
+</footer>
+
+</div>
+ </div>
+</aside>
+
+
+
+<a class="js-go-to u-go-to mp-bg-blue animated js-animation-was-fired slideInUp" href="https://www.mageplaza.com/#" data-position="{&quot;bottom&quot;: 95, &quot;right&quot;: 30 }" data-type="fixed" data-offset-top="400" data-compensation="#header" data-show-effect="slideInUp" data-hide-effect="slideOutDown" style="display: inline-block; position: fixed; bottom: 95px; right: 30px;">
+<span class="fas fa-arrow-up u-go-to__inner"></span>
+</a>
+
+<script src="./Mageplaza_files/jquery.min.js.download"></script>
+<script src="./Mageplaza_files/lazyload.min.js.download"></script>
+<script type="text/javascript">
+    $(document).on('ready', function () {
+        lazyload();
+    });
+</script>
+<script defer="" src="./Mageplaza_files/jquery-migrate.min.js.download"></script>
+<script src="./Mageplaza_files/combine.js.download"></script>
+<script defer="" src="./Mageplaza_files/combine_2_component.js.download"></script>
+<script defer="" src="./Mageplaza_files/combine_2_hs.js.download"></script>
+<script defer="" src="./Mageplaza_files/combine_2_theme.js.download"></script>
+<script defer="" src="./Mageplaza_files/combine-footer.js.download"></script>
+<script defer="" src="./Mageplaza_files/combine-footer-search-data.js.download"></script>
+<script src="./Mageplaza_files/instantsearch.min.js.download"></script>
+<script src="./Mageplaza_files/algoliasearchLite.min.js.download"></script>
+<script src="./Mageplaza_files/algoliasearchInit.js.download"></script>
+<script defer="" src="./Mageplaza_files/combine_homepage_new.js.download"></script>
+<script type="text/javascript">(function(){window['__CF$cv$params']={r:'6d829fddff4af19e',m:'_oadtB8kWR91szXwe7q02TImjWYiPE4ZiaSb4aDdLcE-1643964344-0-AW0vs5w4ytl3X+ZYzztXB0Bx5gaW2lgel0YR8SNr6oW1A/44cmSjBZUWitTp+1pfzbzXkq004N9WwSj+IA1hwE8Gtv2YPBM39gMezCoKnAyKH/a1mIa0R5vTXMJnA3fE3w==',s:[0xd6ea144631,0xabcdc5481b],}})();</script>
+
+</body><iframe src="./Mageplaza_files/popup.html" frameborder="none" id="spocketPopup" style="display: none; height: 16px;"></iframe></html>
